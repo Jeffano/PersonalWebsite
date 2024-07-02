@@ -12,11 +12,12 @@ export const darkTheme = {
 };
 
 export const lightTheme = {
-  bg: "#FAF9F6",
-  bgLight: "#f0f0f0",
-  primary: "#305CDE",
-  text_primary: "#111111",
-  text_secondary: "#48494a",
-  card: "#FFFFFF",
-  button: "#5c5b5b",
+  bg: "#FAF9F6",           // Light grayish
+  bgLight: "#f0f0f0",      // Light gray
+  primary: "#305CDE",      // Blue
+  text_primary: "#111111", // Black
+  text_secondary: "#48494a",// Gray
+  card: "#FFFFFF",         // White
+  button: "#5c5b5b",       // Dark gray
 };
+

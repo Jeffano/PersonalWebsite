@@ -26,7 +26,7 @@ const Body = styled.div`
 const Role = styled.div`
   font-size: 18px;
   font-weight: 600px;
-  color: ${({ theme }) => theme.text_primary + 99};
+  color: ${({ theme }) => theme.text_primary};
 
   @media only screen and (max-width: 768px) {
     font-size: 14px;
@@ -35,7 +35,7 @@ const Role = styled.div`
 const Company = styled.div`
   font-size: 14px;
   font-weight: 500px;
-  color: ${({ theme }) => theme.text_secondary + 99};
+  color: ${({ theme }) => theme.text_secondary};
 
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -44,7 +44,7 @@ const Company = styled.div`
 const Date = styled.div`
   font-size: 12px;
   font-weight: 400px;
-  color: ${({ theme }) => theme.text_secondary + 80};
+  color: ${({ theme }) => theme.text_secondary};
 
   @media only screen and (max-width: 768px) {
     font-size: 10px;
@@ -79,6 +79,7 @@ const Skills = styled.div`
   gap: 12px;
   margin-top: -10px;
 `;
+
 const Skill = styled.div`
   font-size: 15px;
   font-weight: 400;
@@ -94,9 +95,15 @@ const ItemWrapper = styled.div`
   gap: 8px;
 `;
 
+const CustomVerticalTimelineElement = styled(VerticalTimelineElement)`
+  .vertical-timeline-element-date {
+    color: #000000; /* Date text color */
+  }
+`;
+
 const ExperienceCard = ({ experience }) => {
   return (
-    <VerticalTimelineElement
+    <CustomVerticalTimelineElement
       icon={
         <img
           width="100%"
@@ -114,14 +121,15 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
         boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
         // backdropFilter: "blur(3px) saturate(106%)",
-        backgroundColor: "rgba(17, 25, 40, 0.83)",
+        backgroundColor: "#E1E6F3",
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
       }}
       contentArrowStyle={{
-        borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
+        borderRight: "7px solid #305cde",
       }}
       date={experience.date}
+      
     >
       <Top>
         <Image src={experience.img} />
@@ -147,7 +155,7 @@ const ExperienceCard = ({ experience }) => {
           </>
         )}
       </Description>
-    </VerticalTimelineElement>
+    </CustomVerticalTimelineElement>
   );
 };
 

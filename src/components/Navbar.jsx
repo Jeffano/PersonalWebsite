@@ -14,7 +14,7 @@ const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
-  color: white;
+
 `;
 const ColorText = styled.div`
   color: ${({ theme }) => theme.primary};

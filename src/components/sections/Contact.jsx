@@ -56,7 +56,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(17, 25, 40, 0.83);
+
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 32px;
   border-radius: 12px;
