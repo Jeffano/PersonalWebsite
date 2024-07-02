@@ -35,7 +35,7 @@ const Name = styled.div`
 const Degree = styled.div`
   font-size: 14px;
   font-weight: 500px;
-  color: ${({ theme }) => theme.text_secondary + 99};
+  color: ${({ theme }) => theme.text_secondary};
 
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -44,7 +44,7 @@ const Degree = styled.div`
 const Date = styled.div`
   font-size: 12px;
   font-weight: 400px;
-  color: ${({ theme }) => theme.text_secondary + 80};
+  color: ${({ theme }) => theme.text_secondary};
 
   @media only screen and (max-width: 768px) {
     font-size: 10px;
@@ -56,6 +56,12 @@ const Grade = styled.div`
   color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
+  }
+`;
+
+const CustomVerticalTimelineElement = styled(VerticalTimelineElement)`
+  .vertical-timeline-element-date {
+    color: #000000; /* Date text color */
   }
 `;
 
@@ -73,7 +79,7 @@ const Span = styled.div``;
 
 const EducationCard = ({ education }) => {
   return (
-    <VerticalTimelineElement
+    <CustomVerticalTimelineElement
       icon={
         <img
           width="100%"
@@ -96,9 +102,10 @@ const EducationCard = ({ education }) => {
         borderRadius: "6px",
       }}
       contentArrowStyle={{
-        borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
+        borderRight: "7px solid #305cde",
       }}
       date={education.date}
+      
     >
       <Top>
         <Image src={education.img} />
@@ -115,7 +122,7 @@ const EducationCard = ({ education }) => {
       <Description>
         <Span>{education.desc}</Span>
       </Description>
-    </VerticalTimelineElement>
+    </CustomVerticalTimelineElement>
   );
 };
 
