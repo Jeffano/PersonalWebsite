@@ -302,8 +302,8 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
+    title: "Cheer Website",
+    date: "Sept 2023 - Apr 2024",
     description:
       "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
     image:
@@ -317,7 +317,7 @@ export const projects = [
       "React Flow",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
+    github: "https://github.com/Jeffano/CHEER-Fullstack-Website",
     webapp: "https://decisionhub.netlify.app/",
   },
   {

@@ -134,6 +134,13 @@ const Projects = ({ openModal, setOpenModal }) => {
           >
             MACHINE LEARNING
           </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "python projects"}
+            onClick={() => setToggle("python projects")}
+          >
+            PYTHON PROJECTS
+          </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
