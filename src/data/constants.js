@@ -305,20 +305,19 @@ export const projects = [
     title: "Cheer Website",
     date: "Sept 2023 - Apr 2024",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "The website for Ongoing Living & Learning Inc. offers a fully accessible platform for adults with disabilities, their families, and caregivers. It provides essential information and resources, enhances communication, and promotes community engagement.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "",
     tags: [
       "React Js",
-      "PostgressSQL",
+      "MongoDB",
       "Node Js",
       "Express Js",
-      "Redux",
-      "React Flow",
+      "JavaScript",
     ],
-    category: "web app",
+    category: "web-app",
     github: "https://github.com/Jeffano/CHEER-Fullstack-Website",
-    webapp: "https://decisionhub.netlify.app/",
+    webapp: "",
   },
   {
     id: 9,
