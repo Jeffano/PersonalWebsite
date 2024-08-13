@@ -1,6 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
@@ -51,103 +50,48 @@ const Desc = styled.div`
     font-size: 16px;
   }
 `;
-const ContactForm = styled.form`
+
+const ContactInfo = styled.div`
   width: 95%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
-
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 32px;
   border-radius: 12px;
   box-shadow: rgba(23, 92, 230, 0.1) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
+  background: ${({ theme }) => theme.background_secondary}; // Match the theme
 `;
-const ContactTitle = styled.div`
+
+const InfoTitle = styled.div`
   font-size: 28px;
   margin-bottom: 6px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 `;
-const ContactInput = styled.input`
-  flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
-  outline: none;
+
+const InfoItem = styled.div`
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
-  padding: 12px 16px;
-  &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
-  }
+  color: ${({ theme }) => theme.text_secondary};
+  margin-bottom: 12px;
 `;
-const ContactInputMessage = styled.textarea`
-  flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
-  outline: none;
-  font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
-  padding: 12px 16px;
-  &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
-  }
+
+const BoldText = styled.span`
+  font-weight: 600; // Make the text bold
 `;
-const ContactButton = styled.input`
-  width: 100%;
+
+
+const Link = styled.a`
+  color: ${({ theme }) => theme.primary};
   text-decoration: none;
-  text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  padding: 13px 16px;
-  margin-top: 2px;
-  border-radius: 12px;
-  border: none;
-  color: ${({ theme }) => theme.text_primary};
-  font-size: 18px;
-  font-weight: 600;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const Contact = () => {
-  const form = useRef();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.resut();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
-  };
-
   return (
     <Container>
       <Wrapper>
@@ -156,14 +100,11 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
-        </ContactForm>
+        <ContactInfo>
+          <InfoTitle>Contact Information</InfoTitle>
+          <InfoItem> <BoldText>📧 Email:</BoldText> <Link href="mailto:jeffanojohn@gmail.com">jeffanojohn@gmail.com</Link></InfoItem>
+          <InfoItem> <BoldText>🤝 LinkedIn:</BoldText> <Link href="https://www.linkedin.com/in/jeffanojohn/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jeffanojohn</Link></InfoItem>
+        </ContactInfo>
       </Wrapper>
     </Container>
   );
