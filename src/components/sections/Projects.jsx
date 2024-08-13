@@ -135,10 +135,6 @@ const Projects = ({ openModal, setOpenModal }) => {
           <ToggleButton active={toggle === "java"} onClick={() => setToggle("java")}>
             JAVA APPLICATIONS
           </ToggleButton>
-          <Divider />
-          <ToggleButton active={toggle === "courses"} onClick={() => setToggle("courses")}>
-            COURSES
-          </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
