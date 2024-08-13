@@ -221,7 +221,23 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 6,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKsL4RPjRVn1G6ii2l-mA6LG_vnNBG52KbQ&s",
+    role: "Software Developer",
+    company: "OGES INFOTECH",
+    date: "May 2024 - August 2024",
+    desc: "Leveraged Pandas for data preprocessing and cleaning, converting categorical variables to numerical formats and handling missing values in complex datasets. Conducted exploratory data analysis (EDA) and developed visualizations using Matplotlib to uncover trends and patterns, leading to actionable insights. Engineered features to optimize machine learning models, implementing logistic regression and decision trees for predictive analytics with high accuracy and F1-scores. Integrated Hugging Face Transformers to develop an AI-powered text generation system using the GPT-2 large language model, achieving coherent and contextually relevant outputs. Employed advanced NLP techniques, including beam search optimization, to enhance the quality of generated text, reducing repetition and improving sentence structure. Automated the generation process, efficiently saving outputs into text files, and evaluated model performance using metrics such as accuracy, precision, recall, and F1-score.",
+    skills: [
+      "Python",
+      "Machine Learning",
+      "Large Language Models (LLM)",
+      "Artificial Intelligence",
+      "GPT-2",
+    ],
+    doc: "",
+  },
+  {
+    id: 5,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKsL4RPjRVn1G6ii2l-mA6LG_vnNBG52KbQ&s",
     role: "Software Developer",
     company: "OGES INFOTECH",
@@ -239,7 +255,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 1,
+    id: 4,
     img: "https://media.licdn.com/dms/image/C4D0BAQGSi5ChozrPQA/company-logo_200_200/0/1630478722933/westernuai_logo?e=2147483647&v=beta&t=tDoyrlvKYSbxXM9QKI45GOojZCAGPsVuFNA4wI1iR4M",
     role: "Lead Software Developer",
     company: "Western AI",
@@ -257,7 +273,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://media.licdn.com/dms/image/C4E0BAQF4kPFf2nwQGw/company-logo_200_200/0/1631336876249?e=2147483647&v=beta&t=0y2hGejRcPMYXBAeNMRIx2EiSTFqtFtJ_JyQNrNde6g",
     role: "Software Developer",
     company: "The Buckmaster Institute Inc",
@@ -275,7 +291,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 3,
+    id: 2,
     img: "https://media.licdn.com/dms/image/D560BAQFCvWORw4jV9g/company-logo_200_200/0/1696259066115/astro_stem_labs_logo?e=2147483647&v=beta&t=-kKXwLuKfKC-o21bOeJf648KhJRiT2FW2aXfyiaA84I",
     role: "Mathematics Teacher",
     company: "Astro STEM Labs",
@@ -288,7 +304,7 @@ export const experiences = [
     doc: "",
   },
   {
-    id: 4,
+    id: 1,
     img: "https://spiritofmath.com/wp-content/themes/spirit-of-math-v1.5/rsrc/img/spirit-of-math-ico.png",
     role: "Teacher Assistant",
     company: "Spirit of Math Schools",

@@ -127,7 +127,7 @@ const Skills = () => {
             marginBottom: "40px",
           }}
         >
-          Skills I've Developed Over the Past 5 Years
+          Skills I've developed as a software developer
         </Desc>
 
         <SkillsContainer>

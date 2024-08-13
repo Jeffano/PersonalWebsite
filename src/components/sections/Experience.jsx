@@ -60,7 +60,7 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-          My Work Experience as a Software Developer
+          My work experience over the years
         </Desc>
 
         <VerticalTimeline>
