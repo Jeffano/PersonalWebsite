@@ -2,7 +2,34 @@ import CheerWebsiteImage from '../images/CheerWebsite.png';
 import ChatroomImage from '../images/Chatroom.png';
 import PigeonPlexImage from '../images/PigeonPlex.jpg';
 import CalculatorImage from '../images/Calculator.png';
+import Connect4 from '../images/Connect4.avif';
+import Watercooler from '../images/TheWatercooler.avif';
+import PythonSnake from '../images/PythonSnake.jpg';
+import iFinance from '../images/iFinance.png';
+import MoneyTranslate from '../images/MoneyTranslate.png';
+import SalesForecasting from  '../images/SalesForecasting.png';
+import SortingMethod from '../images/SortingMethod.png';
+import TennisDB from '../images/TennisDB.png';
+import BattleGame from '../images/BattleGame.png';
 
+
+/**
+{
+    id: ,
+    title: "",
+    date: "",
+    description: "",
+    image: "",
+    tags: [
+      "",
+    ],
+    category: "",
+    github: "",
+    webapp: "",
+  },
+
+  Categories: web-app, ml, python, java;
+ */
 
 
 
@@ -311,7 +338,7 @@ export const projects = [
   {
     id: 0,
     title: "Cheer Website",
-    date: "Sept 2023 - Apr 2024",
+    date: "September 2023 - April 2024",
     description:
       "The website for Ongoing Living & Learning Inc. offers a fully accessible platform for adults with disabilities, their families, and caregivers. It provides essential information and resources, enhances communication, and promotes community engagement.",
     image: CheerWebsiteImage,
@@ -324,12 +351,22 @@ export const projects = [
     ],
     category: "web-app",
     github: "https://github.com/Jeffano/CHEER-Fullstack-Website",
-    webapp: "",
+    webapp: "https://youtu.be/Aiu-fwW3Rbw",
+    /** 
+    member: [
+      {
+        name: "",
+        img: "",
+        linkedin: "",
+        github: "",
+      },
+    ],
+    */
   },
   {
     id: 1,
     title: "Chatroom App",
-    date: "Jan 2024 - Apr 2024",
+    date: "January 2024 - April 2024",
     description:
       "This chatroom application features a robust server-client architecture, with the server developed in C++ and the client in Python. The server employs a sophisticated threading mechanism, utilizing SocketThread for managing individual client connections and ServerThread for overarching server operations. Semaphores ensure synchronization and resource management. The client connects via sockets for real-time messaging and dynamic chatroom navigation. The application prioritizes seamless communication, efficient synchronization, and graceful termination processes to maintain system stability.",
     image: ChatroomImage,
@@ -344,21 +381,11 @@ export const projects = [
     category: "",
     github: "https://github.com/Jeffano/ChatroomApp",
     webapp: "",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
-    */
   },
   {
     id: 2,
     title: "PigeonPlex - Moive DB",
-    date: "Apr 2023 - May 2023",
+    date: "April 2023 - May 2023",
     description:
       "Developed a full-stack web application for a movie theater database, enabling users to purchase tickets for specific showtimes, request refunds, and access detailed information about movies currently showing or released. Implemented user authentication using Firebase, and crafted a responsive user interface with React JS to ensure a seamless experience across all devices. Practiced agile methodologies to enhance team efficiency and communication.",
     image: PigeonPlexImage,
@@ -370,20 +397,163 @@ export const projects = [
   {
     id: 3,
     title: "Calculator App",
-    date: "Oct 2022 - Jan 2023",
-    description:"This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
+    date: "October 2022 - January 2023",
+    description: "This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
     image: CalculatorImage,
     tags: [
       "UIUXDesign",
       "INFIX",
       "RPN",
-      "UsabilityTesting",
-      "HumanComputerInteraction",
+      "Usability Testing",
+      "Human Computer Interaction",
     ],
     category: "web-app",
     github: "https://github.com/Jeffano/CalculatorApp",
     webapp: "",
   },
-  
+  {
+    id: 4,
+    title: "Sales Forecasting Model",
+    date: "September 2022 – April 2023",
+    description: "Developed a machine learning model to accurately forecast item sales across various branches of a large retailer. The project involved analyzing a comprehensive sales dataset and implementing advanced data preprocessing techniques to prepare the data for predictions. The model was built using Python, TensorFlow, Scikit-learn, XGBoost, and other key libraries such as NumPy and Pandas. The model achieved a 5% margin of error in sales predictions, and the training process was optimized to reduce model training time by 20%. Various metrics, including mean squared error, mean absolute error, and R² score, were used to evaluate the model's performance.",
+    image: SalesForecasting,
+    tags: [
+      "Machine Learning",
+      "Sales Forecasting",
+      "Python",
+      "TensorFlow",
+      "Scikit-learn",
+      "XGBoost",
+      "Data Preprocessing",
+      "Model Optimization",
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/Sales-Forecaster",
+    webapp: "",
+  },
+  {
+    id: 5,
+    title: "iFinance Database",
+    date: "January 2023 - April 2023",
+    description: "The iFINANCE project is a comprehensive Personal Finance Management System that enables users to efficiently manage their finances. The system allows users to track various financial accounts, including bank accounts, cash, credit cards, and investments. Utilizing double-entry bookkeeping, iFINANCE categorizes transactions into Assets, Liabilities, Income, and Expenses, providing users with the ability to generate detailed financial reports such as Balance Sheets and Profit and Loss statements. The system includes secure user authentication, customizable account management, and a robust transaction management tool.",
+    image: iFinance,
+    tags: [
+      "Java",
+      "JavaFX",
+      "JavaDB",
+    ],
+    category: "java",
+    github: "https://github.com/Jeffano/iFinance-Database",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Sorting Method Visualizer",
+    date: "September 2022 - December 2022",
+    description: "The Sorting Method Visualizer is a Java application designed to visually demonstrate and compare different sorting algorithms. Users can select from various sorting methods, such as Bubble Sort, Merge Sort, Quick Sort, and others. The application displays the sorting process in real-time, illustrating how elements move and get arranged to help users understand the efficiency and behavior of each algorithm.",
+    image: SortingMethod,
+    tags: [
+      "Java",
+      "Sorting Algorithms",
+      "Visualization",
+      "Bubble Sort",
+      "Merge Sort",
+      "Quick Sort",
+      "Algorithm Comparison",
+    ],
+    category: "java",
+    github: "https://github.com/Jeffano/Sorting-Method-Visualizer",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "Tennis Ball DB",
+    date: "",
+    description: "Developed a database-driven application for managing summer T-ball teams, games, and scores. The application allows a recreation director to track team standings, game results, and update records as needed. It involves connecting to a Derby database, performing SQL operations to retrieve and modify data, and creating user interfaces for adding and managing team and match information.",
+    image: TennisDB,
+    tags: [
+      "Java",
+      "JavaFX",
+      "SQL",
+      "Database Management",
+      "GUI Development",
+    ],
+    category: "java",
+    github: "https://github.com/Jeffano/Tennis-Ball-Database",
+    webapp: "",
+  },
+  {
+    id: 8,
+    title: "Money Translate",
+    date: "January 2023",
+    description: "Financial literacy doesn't have to be hard... introducing Money Translate. This website allows user's to input a PDF file of a financial document and it will then output a summary that details the most important concepts of the document in a manner that is easy to understand.",
+    image: MoneyTranslate,
+    tags: [
+      "Python",
+      "React",
+      "JavaScript",
+    ],
+    category: "python",
+    github: "https://github.com/Jeffano/MoneyTranslate",
+    webapp: "",
+  },
+  {
+    id: 9,
+    title: "Python Snake Game",
+    date: "July 2021",
+    description: "This is a classic Snake game developed using Python and Pygame. The game involves controlling a snake that moves around the screen, eating apples to grow longer while avoiding collisions with itself. The game features a graphical interface with a window displaying the snake, apples, and score. It includes sound effects and background music to enhance the gameplay experience.",
+    image: PythonSnake,
+    tags: [
+      "Python",
+      "Pygame",
+    ],
+    category: "python",
+    github: "https://github.com/Jeffano/Snake",
+    webapp: "",
+  },
+  {
+    id: 10,
+    title: "Java Connect 4 Game",
+    date: "July 2020",
+    description: "This project is a graphical implementation of the classic Connect Four game using Java Swing. The game features a 7x7 grid where two players alternate turns to drop colored counters into columns, with the goal of aligning four counters horizontally, vertically, or diagonally. The application provides a user-friendly interface with dynamic button placement, game state management, and visual feedback for player actions.",
+    image: Connect4,
+    tags: [
+      "Java",
+      "Swing",
+      "GUI",
+      "Game Development",
+    ],
+    category: "java",
+    github: "https://github.com/Jeffano/Connect-4",
+    webapp: "",
+  },
+  {
+    id: 11,
+    title: "The Watercooler",
+    date: "October 2022",
+    description: "The Water Cooler Application is a full-stack web platform designed to connect employees in remote workforces based on their interests. Users sign up by answering a series of questions that help match them with colleagues who share similar interests. The goal is to foster connections and collaboration among remote workers by leveraging shared interests.",
+    image: Watercooler,
+    tags: [
+      "Python",
+      "JavaScript",
+    ],
+    category: "python",
+    github: "https://github.com/Jeffano/TheWatercooler",
+    webapp: "",
+  },
+  {
+    id: 12,
+    title: "The Battle of The Marauders",
+    date: "January 2023 - April 2023",
+    description: "This is a 16-bit RPG video game developed using Python and Pygame. In the game, players find themselves trapped inside a virtual world and must defeat enemies and navigate diverse terrains to escape. The gameplay features 2D platforming, turn-based combat, and character upgrades, allowing players to enhance their abilities as they progress through the game's challenges.",
+    image: BattleGame,
+    tags: [
+      "Python",
+      "PyGame"
+    ],
+    category: "",
+    github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
+    webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
+  },
 ];
 
