@@ -95,7 +95,7 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <EarthCanvas />
+       {/* <EarthCanvas /> */}
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
