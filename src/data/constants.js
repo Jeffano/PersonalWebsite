@@ -369,7 +369,7 @@ export const experiences = [
 
 export const education = [
   {
-    id: 0,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKgL2K6bJWK1rJBHM9QAy01N2L2aiX8H6A&s",
     school: "Western University",
     date: "September 2021 - April 2025",
@@ -387,7 +387,7 @@ export const education = [
     degree: "Ontario Secondary School Diploma (OSSD)",
   },
   {
-    id: 2,
+    id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/International_Baccalaureate_Logo.svg/2048px-International_Baccalaureate_Logo.svg.png",
     school: "St. Francis Xavier Secondary School, IB Program",
     date: "September 2019 - June 2021",
