@@ -399,7 +399,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 14,
+    id: 22,
     title: "AI Recipe Generator",
     date: "August 2024",
     description: "Developed a serverless web application designed for AI-powered recipe generation. The application leverages AWS Amplify and React to create an interactive user experience, using Amazon Bedrock and the Claude 3 Sonnet model to generate recipes based on user-provided ingredients. The application integrates user authentication, backend services, and a GraphQL API to provide a seamless and efficient recipe generation experience.",
@@ -428,7 +428,7 @@ export const projects = [
     */
   },
   {
-    id: 16,
+    id: 21,
     title: "AI Text Generation GPT-2",
     date: "May 2024 – August 2024",
     description: "Created an AI-powered text generation tool using advanced natural language processing techniques. The project utilized Hugging Face's transformer models to generate coherent and contextually relevant text, demonstrating the potential of AI in automating content creation and enhancing human-computer interaction.",
@@ -447,7 +447,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 15,
+    id: 20,
     title: "Customer Churn Prediction",
     date: "May 2024 – August 2024",
     description: "Developed a predictive model to analyze customer data and identify patterns that could predict churn rates. Leveraging machine learning techniques, particularly logistic regression, the project aimed to help businesses understand customer behavior and proactively address potential churn, thus improving retention rates.",
@@ -466,7 +466,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 13,
+    id: 19,
     title: "Model Car Management System",
     date: "May 2024 – August 2024",
     description: "The Model Car Management System is a full-stack web application designed to manage a collection of model cars. The system allows users to add, update, delete, and view detailed information about model cars. The application is built using React for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. The system integrates with user authentication services, ensuring secure access and management of data.",
@@ -483,7 +483,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 0,
+    id: 18,
     title: "Cheer Website",
     date: "January 2024 - April 2024",
     description:
@@ -501,7 +501,7 @@ export const projects = [
     webapp: "https://youtu.be/Aiu-fwW3Rbw",
   },
   {
-    id: 3,
+    id: 17,
     title: "Calculator App",
     date: "January 2024 - April 2024",
     description: "This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
@@ -518,7 +518,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 1,
+    id: 16,
     title: "Chatroom App",
     date: "January 2024 - April 2024",
     description:
@@ -537,7 +537,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 10,
+    id: 15,
     title: "Microcontroller LED GAme",
     date: "March 2024",
     description: "This project implements a light sequence with LEDs controlled in a loop. The LEDs are turned on sequentially with a changing pattern based on elapsed time and user button presses. The sequence changes every 10 seconds, and the behavior can be adjusted with button presses. The delay between sequence changes decreases when a specific condition is met.",
@@ -554,7 +554,7 @@ export const projects = [
   },
 
   {
-    id: 1,
+    id: 14,
     title: "Singleton Controller for Networking",
     date: "March 2024",
     description: "This module manages sequence numbers and timestamps for a networked application. It initializes a random sequence number and timestamp, and provides methods to retrieve and increment these values. It also maintains a periodic timer to update the timestamp, ensuring it stays within a 32-bit range.",
@@ -569,7 +569,7 @@ export const projects = [
     webapp: ""   // Add a web application URL if applicable
   },
   {
-    id: 1,
+    id: 13,
     title: "DHT Table Management System",
     date: "February 2024",
     description: "This code contains functions for managing a Distributed Hash Table (DHT). The functions handle various aspects of the DHT including packet creation, prefix length calculation, bucket updates, and peer information management.",
@@ -584,15 +584,8 @@ export const projects = [
     github: "https://github.com/Jeffano/DHT-Table-Management-System",
     webapp: ""
   },
-
-
-
-
-
-
-
   {
-    id: 2,
+    id: 12,
     title: "PigeonPlex - Moive DB",
     date: "September 2023 - December 2023",
     description:
@@ -604,7 +597,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: "4",
+    id: 11,
     title: "Superhero Management System",
     date: "December 2023",
     description: "Developed a full-stack web application to manage superhero characters from movies, cartoons, and books. Implemented a REST API using Node.js and Express for accessing and manipulating superhero data. MongoDB was used to store and manage superhero lists. The client-side interface was created using pure HTML, CSS, and JavaScript. The system supports asynchronous operations, input sanitization, and provides functionality for creating and managing favorite lists of superheroes.",
@@ -623,7 +616,7 @@ export const projects = [
     webapp: ""
   },
   {
-    id: 11,
+    id: 10,
     title: "Grocery and Retail Recommendation System",
     date: "December 2023",
     description: "A recommendation system that suggests items based on user purchase history. It uses KNN to identify top categories for a user from grocery data and recommends items from retail data based on these categories.",
@@ -639,7 +632,7 @@ export const projects = [
     webapp: ""
   },
   {
-    id: 4,
+    id: 9,
     title: "Sales Forecasting Model",
     date: "September 2022 – April 2023",
     description: "Developed a machine learning model to accurately forecast item sales across various branches of a large retailer. The project involved analyzing a comprehensive sales dataset and implementing advanced data preprocessing techniques to prepare the data for predictions. The model was built using Python, TensorFlow, Scikit-learn, XGBoost, and other key libraries such as NumPy and Pandas. The model achieved a 5% margin of error in sales predictions, and the training process was optimized to reduce model training time by 20%. Various metrics, including mean squared error, mean absolute error, and R² score, were used to evaluate the model's performance.",
@@ -659,7 +652,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 12,
+    id: 8,
     title: "The Battle of The Marauders",
     date: "January 2023 - April 2023",
     description: "This is a 16-bit RPG video game developed using Python and Pygame. In the game, players find themselves trapped inside a virtual world and must defeat enemies and navigate diverse terrains to escape. The gameplay features 2D platforming, turn-based combat, and character upgrades, allowing players to enhance their abilities as they progress through the game's challenges.",
@@ -673,7 +666,7 @@ export const projects = [
     webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
   },
   {
-    id: 5,
+    id: 7,
     title: "iFinance Database",
     date: "March 2023 - April 2023",
     description: "The iFINANCE project is a comprehensive Personal Finance Management System that enables users to efficiently manage their finances. The system allows users to track various financial accounts, including bank accounts, cash, credit cards, and investments. Utilizing double-entry bookkeeping, iFINANCE categorizes transactions into Assets, Liabilities, Income, and Expenses, providing users with the ability to generate detailed financial reports such as Balance Sheets and Profit and Loss statements. The system includes secure user authentication, customizable account management, and a robust transaction management tool.",
@@ -688,7 +681,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 7,
+    id: 6,
     title: "Tennis Ball DB",
     date: "February 2023",
     description: "Developed a database-driven application for managing summer T-ball teams, games, and scores. The application allows a recreation director to track team standings, game results, and update records as needed. It involves connecting to a Derby database, performing SQL operations to retrieve and modify data, and creating user interfaces for adding and managing team and match information.",
@@ -705,7 +698,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 8,
+    id: 5,
     title: "Money Translate",
     date: "January 2023",
     description: "Financial literacy doesn't have to be hard... introducing Money Translate. This website allows user's to input a PDF file of a financial document and it will then output a summary that details the most important concepts of the document in a manner that is easy to understand.",
@@ -720,7 +713,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
+    id: 4,
     title: "Sorting Method Visualizer",
     date: "September 2022 - December 2022",
     description: "The Sorting Method Visualizer is a Java application designed to visually demonstrate and compare different sorting algorithms. Users can select from various sorting methods, such as Bubble Sort, Merge Sort, Quick Sort, and others. The application displays the sorting process in real-time, illustrating how elements move and get arranged to help users understand the efficiency and behavior of each algorithm.",
@@ -739,7 +732,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 11,
+    id: 3,
     title: "The Watercooler",
     date: "October 2022",
     description: "The Water Cooler Application is a full-stack web platform designed to connect employees in remote workforces based on their interests. Users sign up by answering a series of questions that help match them with colleagues who share similar interests. The goal is to foster connections and collaboration among remote workers by leveraging shared interests.",
@@ -753,7 +746,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 9,
+    id: 2,
     title: "Python Snake Game",
     date: "July 2021",
     description: "This is a classic Snake game developed using Python and Pygame. The game involves controlling a snake that moves around the screen, eating apples to grow longer while avoiding collisions with itself. The game features a graphical interface with a window displaying the snake, apples, and score. It includes sound effects and background music to enhance the gameplay experience.",
@@ -767,7 +760,7 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 10,
+    id: 1,
     title: "Java Connect 4 Game",
     date: "July 2020",
     description: "This project is a graphical implementation of the classic Connect Four game using Java Swing. The game features a 7x7 grid where two players alternate turns to drop colored counters into columns, with the goal of aligning four counters horizontally, vertically, or diagonally. The application provides a user-friendly interface with dynamic button placement, game state management, and visual feedback for player actions.",
