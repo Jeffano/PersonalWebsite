@@ -44,14 +44,13 @@ export const Bio = {
     "Software Developer",
     "ML/AI Developer",
     "Backend Developer",
-    "DevOps Engineer",
     "Project Manager"
   ],
   description:
     "I am a highly motivated and versatile professional with a strong passion for learning and growth. I am committed to delivering exceptional results and thrive on tackling new challenges. With a positive attitude and a relentless drive for excellence, I am prepared to make significant contributions and achieve outstanding success in any endeavor.",
   github: "https://github.com/jeffano",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Q9-F6Qpu6Goga_3OSaL4sr3AeF6P2QkU/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jeffanojohn/",
 };
 
@@ -92,6 +91,10 @@ export const skills = [
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+      {
+        name: "AWS Amplify",
+        image: "https://seeklogo.com/images/A/aws-amplify-logo-D68DDB5AB1-seeklogo.com.png"
       },
     ],
   },
@@ -140,6 +143,18 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Amazon AppSync",
+        image: "https://seeklogo.com/images/A/aws-appsync-logo-1B6E8E9937-seeklogo.com.png"
+      },
+      {
+        name: "AWS Lambda",
+        image: "https://seeklogo.com/images/A/aws-lambda-logo-AE95CFC218-seeklogo.com.png"
+      },
+      {
+        name: "AWS DynamoDB",
+        image: "https://seeklogo.com/images/A/aws-dynamodb-logo-CF7BCC577D-seeklogo.com.png"
+      },
     ],
   },
   {
@@ -185,10 +200,22 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/1280px-Google_Colaboratory_SVG_Logo.svg.png",
       },
       {
-        name: "Sk Learn Kit",
+        name: "Skikit Learn",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
       },
+      {
+        name: "Amazon Bedrock",
+        image: "https://converteo.com/app/uploads/2024/02/Amazon-Bedrock-2-1330x1064-c-center.jpg"
+      },
+      {
+        name: "Claude 3 Sonnet",
+        image: "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620.png&w=3840&q=75"
+      },
+      {
+        name: "Hugging Face Transformers",
+        image: "https://huggingface.co/front/assets/huggingface_logo.svg"
+      }
     ],
   },
   {
@@ -219,6 +246,15 @@ export const skills = [
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
+      {
+        name: "Amazon Cognito",
+        image: "https://seeklogo.com/images/A/aws-cognito-logo-ADE65FC971-seeklogo.com.png"
+      },
+      {
+        name: "GraphQL",
+        image: "https://seeklogo.com/images/G/graphql-logo-97CBBB6D51-seeklogo.com.png"
+      }
+
     ],
   },
 ];
@@ -654,6 +690,4 @@ export const projects = [
     github: "https://github.com/Jeffano/AI-Text-Generation-GPT-2",
     webapp: "",
   },
-  
 ];
-
