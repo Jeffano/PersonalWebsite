@@ -7,7 +7,7 @@ import Watercooler from '../images/TheWatercooler.avif';
 import PythonSnake from '../images/PythonSnake.jpg';
 import iFinance from '../images/iFinance.png';
 import MoneyTranslate from '../images/MoneyTranslate.png';
-import SalesForecasting from  '../images/SalesForecasting.png';
+import SalesForecasting from '../images/SalesForecasting.png';
 import SortingMethod from '../images/SortingMethod.png';
 import TennisDB from '../images/TennisDB.png';
 import BattleGame from '../images/BattleGame.png';
@@ -15,6 +15,11 @@ import CustomerChurn from '../images/CustomerChurn.jpg';
 import AITextGenerator from '../images/AITextGenerator.jpg';
 import ModelCar from '../images/ModelCar.png';
 import RecipeGenerator from '../images/RecipeGenerator.jpg';
+import DHTTable from '../images/DHTTable.jpg';
+import MicrocontrollerGame from '../images/MicrocontrollerGame.jpg';
+import RecommendationSystem from '../images/RecommendationSystem.jpg';
+import SingletonController from '../images/SingletonController.jpg';
+import Superhero from '../images/Superhero.png';
 
 
 /**
@@ -394,9 +399,93 @@ export const education = [
 
 export const projects = [
   {
+    id: 14,
+    title: "AI Recipe Generator",
+    date: "August 2024",
+    description: "Developed a serverless web application designed for AI-powered recipe generation. The application leverages AWS Amplify and React to create an interactive user experience, using Amazon Bedrock and the Claude 3 Sonnet model to generate recipes based on user-provided ingredients. The application integrates user authentication, backend services, and a GraphQL API to provide a seamless and efficient recipe generation experience.",
+    image: RecipeGenerator,
+    tags: [
+      "AWS Amplify",
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon Claude 3 Sonnet",
+      "GraphQL API",
+      "Amazon DynamoDB",
+      "Amazon Cognito"
+    ],
+    category: "web-app",
+    github: "https://github.com/Jeffano/ai-recipe-generator",
+    webapp: "https://youtu.be/5K6dWU0f4bo",
+    /** 
+    member: [
+      {
+        name: "",
+        img: "",
+        linkedin: "",
+        github: "",
+      },
+    ],
+    */
+  },
+  {
+    id: 16,
+    title: "AI Text Generation GPT-2",
+    date: "May 2024 – August 2024",
+    description: "Created an AI-powered text generation tool using advanced natural language processing techniques. The project utilized Hugging Face's transformer models to generate coherent and contextually relevant text, demonstrating the potential of AI in automating content creation and enhancing human-computer interaction.",
+    image: AITextGenerator,
+    tags: [
+      "Python",
+      "Natural Language Processing",
+      "GPT-2",
+      "AI",
+      "Hugging Face Transformers",
+      "Text Generation",
+      "Language Models"
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/AI-Text-Generation-GPT-2",
+    webapp: "",
+  },
+  {
+    id: 15,
+    title: "Customer Churn Prediction",
+    date: "May 2024 – August 2024",
+    description: "Developed a predictive model to analyze customer data and identify patterns that could predict churn rates. Leveraging machine learning techniques, particularly logistic regression, the project aimed to help businesses understand customer behavior and proactively address potential churn, thus improving retention rates.",
+    image: CustomerChurn,
+    tags: [
+      "Python",
+      "Panadas",
+      "Machine Learning",
+      "Logistic Regression",
+      "Scikit-learn",
+      "Data Visualization",
+      "Predictive Analytics"
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/Customer-Churn-Prediction",
+    webapp: "",
+  },
+  {
+    id: 13,
+    title: "Model Car Management System",
+    date: "May 2024 – August 2024",
+    description: "The Model Car Management System is a full-stack web application designed to manage a collection of model cars. The system allows users to add, update, delete, and view detailed information about model cars. The application is built using React for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. The system integrates with user authentication services, ensuring secure access and management of data.",
+    image: ModelCar,
+    tags: [
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+    ],
+    category: "web-app",
+    github: "https://github.com/Jeffano/CarManagementApp",
+    webapp: "",
+  },
+  {
     id: 0,
     title: "Cheer Website",
-    date: "September 2023 - April 2024",
+    date: "January 2024 - April 2024",
     description:
       "The website for Ongoing Living & Learning Inc. offers a fully accessible platform for adults with disabilities, their families, and caregivers. It provides essential information and resources, enhances communication, and promotes community engagement.",
     image: CheerWebsiteImage,
@@ -410,16 +499,23 @@ export const projects = [
     category: "web-app",
     github: "https://github.com/Jeffano/CHEER-Fullstack-Website",
     webapp: "https://youtu.be/Aiu-fwW3Rbw",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
+  },
+  {
+    id: 3,
+    title: "Calculator App",
+    date: "January 2024 - April 2024",
+    description: "This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
+    image: CalculatorImage,
+    tags: [
+      "UIUXDesign",
+      "INFIX",
+      "RPN",
+      "Usability Testing",
+      "Human Computer Interaction",
     ],
-    */
+    category: "web-app",
+    github: "https://github.com/Jeffano/CalculatorApp",
+    webapp: "",
   },
   {
     id: 1,
@@ -441,9 +537,64 @@ export const projects = [
     webapp: "",
   },
   {
+    id: 10,
+    title: "Microcontroller LED GAme",
+    date: "March 2024",
+    description: "This project implements a light sequence with LEDs controlled in a loop. The LEDs are turned on sequentially with a changing pattern based on elapsed time and user button presses. The sequence changes every 10 seconds, and the behavior can be adjusted with button presses. The delay between sequence changes decreases when a specific condition is met.",
+    image: MicrocontrollerGame,
+    tags: [
+      "LED Control",
+      "Button Interaction",
+      "Embedded Systems",
+      "C"
+    ],
+    category: "",
+    github: "https://github.com/Jeffano/Microcontroller-LED-Game",  // Add the GitHub repository URL if applicable
+    webapp: ""
+  },
+
+  {
+    id: 1,
+    title: "Singleton Controller for Networking",
+    date: "March 2024",
+    description: "This module manages sequence numbers and timestamps for a networked application. It initializes a random sequence number and timestamp, and provides methods to retrieve and increment these values. It also maintains a periodic timer to update the timestamp, ensuring it stays within a 32-bit range.",
+    image: SingletonController,  // Add an image URL if applicable
+    tags: [
+      "JavaScript",
+      "Networking",
+      "Singleton Pattern"
+    ],
+    category: "",
+    github: "https://github.com/Jeffano/Singleton-Controller-for-Networking",  // Add a GitHub URL if applicable
+    webapp: ""   // Add a web application URL if applicable
+  },
+  {
+    id: 1,
+    title: "DHT Table Management System",
+    date: "February 2024",
+    description: "This code contains functions for managing a Distributed Hash Table (DHT). The functions handle various aspects of the DHT including packet creation, prefix length calculation, bucket updates, and peer information management.",
+    image: DHTTable,  // Add an image URL if applicable
+    tags: [
+      "DHT",
+      "Distributed Systems",
+      "Networking",
+      "JavaScript"
+    ],
+    category: "",
+    github: "https://github.com/Jeffano/DHT-Table-Management-System",
+    webapp: ""
+  },
+
+
+
+
+
+
+
+  {
     id: 2,
     title: "PigeonPlex - Moive DB",
-    date: "April 2023 - May 2023",
+    date: "September 2023 - December 2023",
     description:
       "Developed a full-stack web application for a movie theater database, enabling users to purchase tickets for specific showtimes, request refunds, and access detailed information about movies currently showing or released. Implemented user authentication using Firebase, and crafted a responsive user interface with React JS to ensure a seamless experience across all devices. Practiced agile methodologies to enhance team efficiency and communication.",
     image: PigeonPlexImage,
@@ -453,21 +604,39 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 3,
-    title: "Calculator App",
-    date: "October 2022 - January 2023",
-    description: "This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
-    image: CalculatorImage,
+    id: "4",
+    title: "Superhero Management System",
+    date: "December 2023",
+    description: "Developed a full-stack web application to manage superhero characters from movies, cartoons, and books. Implemented a REST API using Node.js and Express for accessing and manipulating superhero data. MongoDB was used to store and manage superhero lists. The client-side interface was created using pure HTML, CSS, and JavaScript. The system supports asynchronous operations, input sanitization, and provides functionality for creating and managing favorite lists of superheroes.",
+    image: Superhero,
     tags: [
-      "UIUXDesign",
-      "INFIX",
-      "RPN",
-      "Usability Testing",
-      "Human Computer Interaction",
+      "Node.js",
+      "Express",
+      "REST API",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MongoDB"
     ],
     category: "web-app",
-    github: "https://github.com/Jeffano/CalculatorApp",
-    webapp: "",
+    github: "https://github.com/Jeffano/Superhero-Management-System",
+    webapp: ""
+  },
+  {
+    id: 11,
+    title: "Grocery and Retail Recommendation System",
+    date: "December 2023",
+    description: "A recommendation system that suggests items based on user purchase history. It uses KNN to identify top categories for a user from grocery data and recommends items from retail data based on these categories.",
+    image: RecommendationSystem,
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Recommendation System",
+      "Data Processing"
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/Grocery-and-Retail-Recommendation-System",
+    webapp: ""
   },
   {
     id: 4,
@@ -490,9 +659,23 @@ export const projects = [
     webapp: "",
   },
   {
+    id: 12,
+    title: "The Battle of The Marauders",
+    date: "January 2023 - April 2023",
+    description: "This is a 16-bit RPG video game developed using Python and Pygame. In the game, players find themselves trapped inside a virtual world and must defeat enemies and navigate diverse terrains to escape. The gameplay features 2D platforming, turn-based combat, and character upgrades, allowing players to enhance their abilities as they progress through the game's challenges.",
+    image: BattleGame,
+    tags: [
+      "Python",
+      "PyGame"
+    ],
+    category: "",
+    github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
+    webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
+  },
+  {
     id: 5,
     title: "iFinance Database",
-    date: "January 2023 - April 2023",
+    date: "March 2023 - April 2023",
     description: "The iFINANCE project is a comprehensive Personal Finance Management System that enables users to efficiently manage their finances. The system allows users to track various financial accounts, including bank accounts, cash, credit cards, and investments. Utilizing double-entry bookkeeping, iFINANCE categorizes transactions into Assets, Liabilities, Income, and Expenses, providing users with the ability to generate detailed financial reports such as Balance Sheets and Profit and Loss statements. The system includes secure user authentication, customizable account management, and a robust transaction management tool.",
     image: iFinance,
     tags: [
@@ -505,28 +688,9 @@ export const projects = [
     webapp: "",
   },
   {
-    id: 6,
-    title: "Sorting Method Visualizer",
-    date: "September 2022 - December 2022",
-    description: "The Sorting Method Visualizer is a Java application designed to visually demonstrate and compare different sorting algorithms. Users can select from various sorting methods, such as Bubble Sort, Merge Sort, Quick Sort, and others. The application displays the sorting process in real-time, illustrating how elements move and get arranged to help users understand the efficiency and behavior of each algorithm.",
-    image: SortingMethod,
-    tags: [
-      "Java",
-      "Sorting Algorithms",
-      "Visualization",
-      "Bubble Sort",
-      "Merge Sort",
-      "Quick Sort",
-      "Algorithm Comparison",
-    ],
-    category: "java",
-    github: "https://github.com/Jeffano/Sorting-Method-Visualizer",
-    webapp: "",
-  },
-  {
     id: 7,
     title: "Tennis Ball DB",
-    date: "",
+    date: "February 2023",
     description: "Developed a database-driven application for managing summer T-ball teams, games, and scores. The application allows a recreation director to track team standings, game results, and update records as needed. It involves connecting to a Derby database, performing SQL operations to retrieve and modify data, and creating user interfaces for adding and managing team and match information.",
     image: TennisDB,
     tags: [
@@ -553,6 +717,39 @@ export const projects = [
     ],
     category: "python",
     github: "https://github.com/Jeffano/MoneyTranslate",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Sorting Method Visualizer",
+    date: "September 2022 - December 2022",
+    description: "The Sorting Method Visualizer is a Java application designed to visually demonstrate and compare different sorting algorithms. Users can select from various sorting methods, such as Bubble Sort, Merge Sort, Quick Sort, and others. The application displays the sorting process in real-time, illustrating how elements move and get arranged to help users understand the efficiency and behavior of each algorithm.",
+    image: SortingMethod,
+    tags: [
+      "Java",
+      "Sorting Algorithms",
+      "Visualization",
+      "Bubble Sort",
+      "Merge Sort",
+      "Quick Sort",
+      "Algorithm Comparison",
+    ],
+    category: "java",
+    github: "https://github.com/Jeffano/Sorting-Method-Visualizer",
+    webapp: "",
+  },
+  {
+    id: 11,
+    title: "The Watercooler",
+    date: "October 2022",
+    description: "The Water Cooler Application is a full-stack web platform designed to connect employees in remote workforces based on their interests. Users sign up by answering a series of questions that help match them with colleagues who share similar interests. The goal is to foster connections and collaboration among remote workers by leveraging shared interests.",
+    image: Watercooler,
+    tags: [
+      "Python",
+      "JavaScript",
+    ],
+    category: "python",
+    github: "https://github.com/Jeffano/TheWatercooler",
     webapp: "",
   },
   {
@@ -583,111 +780,6 @@ export const projects = [
     ],
     category: "java",
     github: "https://github.com/Jeffano/Connect-4",
-    webapp: "",
-  },
-  {
-    id: 11,
-    title: "The Watercooler",
-    date: "October 2022",
-    description: "The Water Cooler Application is a full-stack web platform designed to connect employees in remote workforces based on their interests. Users sign up by answering a series of questions that help match them with colleagues who share similar interests. The goal is to foster connections and collaboration among remote workers by leveraging shared interests.",
-    image: Watercooler,
-    tags: [
-      "Python",
-      "JavaScript",
-    ],
-    category: "python",
-    github: "https://github.com/Jeffano/TheWatercooler",
-    webapp: "",
-  },
-  {
-    id: 12,
-    title: "The Battle of The Marauders",
-    date: "January 2023 - April 2023",
-    description: "This is a 16-bit RPG video game developed using Python and Pygame. In the game, players find themselves trapped inside a virtual world and must defeat enemies and navigate diverse terrains to escape. The gameplay features 2D platforming, turn-based combat, and character upgrades, allowing players to enhance their abilities as they progress through the game's challenges.",
-    image: BattleGame,
-    tags: [
-      "Python",
-      "PyGame"
-    ],
-    category: "",
-    github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
-    webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
-  },
-  {
-    id: 13,
-    title: "Model Car Management System",
-    date: "January 2024 – April 2024",
-    description: "The Model Car Management System is a full-stack web application designed to manage a collection of model cars. The system allows users to add, update, delete, and view detailed information about model cars. The application is built using React for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. The system integrates with user authentication services, ensuring secure access and management of data.",
-    image: ModelCar,
-    tags: [
-      "React",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "Firebase Authentication",
-    ],
-    category: "web-app",
-    github: "https://github.com/Jeffano/CarManagementApp",
-    webapp: "",
-  },
-  {
-    id: 14,
-    title: "AI Recipe Generator",
-    date: "January 2024 – April 2024",
-    description: "Developed a serverless web application designed for AI-powered recipe generation. The application leverages AWS Amplify and React to create an interactive user experience, using Amazon Bedrock and the Claude 3 Sonnet model to generate recipes based on user-provided ingredients. The application integrates user authentication, backend services, and a GraphQL API to provide a seamless and efficient recipe generation experience.",
-    image: RecipeGenerator,
-    tags: [
-      "React",
-      "TypeScript",
-      "Natural Language Processing",
-      "AWS Amplify",
-      "AWS Lambda",
-      "Amazon Bedrock",
-      "Amazon Claude 3 Sonnet",
-      "GraphQL API",
-      "Amazon DynamoDB",
-      "Amazon Cognito"
-    ],
-    category: "web-app",
-    github: "https://github.com/Jeffano/ai-recipe-generator",
-    webapp: "https://youtu.be/5K6dWU0f4bo",
-  },
-  {
-    id: 15,
-    title: "Customer Churn Prediction",
-    date: "May 2024 – August 2024",
-    description: "Developed a predictive model to analyze customer data and identify patterns that could predict churn rates. Leveraging machine learning techniques, particularly logistic regression, the project aimed to help businesses understand customer behavior and proactively address potential churn, thus improving retention rates.",
-    image: CustomerChurn,
-    tags: [
-      "Python",
-      "Panadas",
-      "Machine Learning",
-      "Logistic Regression",
-      "Scikit-learn",
-      "Data Visualization",
-      "Predictive Analytics"
-    ],
-    category: "ml",
-    github: "https://github.com/Jeffano/Customer-Churn-Prediction",
-    webapp: "",
-  },
-  {
-    id: 16,
-    title: "AI Text Generation GPT-2",
-    date: "May 2024 – August 2024",
-    description: "Created an AI-powered text generation tool using advanced natural language processing techniques. The project utilized Hugging Face's transformer models to generate coherent and contextually relevant text, demonstrating the potential of AI in automating content creation and enhancing human-computer interaction.",
-    image: AITextGenerator,
-    tags: [
-      "Python",
-      "Natural Language Processing",
-      "GPT-2",
-      "AI",
-      "Hugging Face Transformers",
-      "Text Generation",
-      "Language Models"
-    ],
-    category: "ml",
-    github: "https://github.com/Jeffano/AI-Text-Generation-GPT-2",
     webapp: "",
   },
 ];
