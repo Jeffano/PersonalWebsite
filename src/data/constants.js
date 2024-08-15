@@ -11,6 +11,10 @@ import SalesForecasting from  '../images/SalesForecasting.png';
 import SortingMethod from '../images/SortingMethod.png';
 import TennisDB from '../images/TennisDB.png';
 import BattleGame from '../images/BattleGame.png';
+import CustomerChurn from '../images/CustomerChurn.jpg';
+import AITextGenerator from '../images/AITextGenerator.jpg';
+import ModelCar from '../images/ModelCar.png';
+import RecipeGenerator from '../images/RecipeGenerator.jpg';
 
 
 /**
@@ -233,6 +237,8 @@ export const experiences = [
       "Large Language Models (LLM)",
       "Artificial Intelligence",
       "GPT-2",
+      "Natural Language Processing (NLP)",
+      "Hugging Face Transformers",
     ],
     doc: "",
   },
@@ -394,7 +400,7 @@ export const projects = [
       "Semaphore",
       "ClientServerArchitecture",
     ],
-    category: "",
+    category: "python",
     github: "https://github.com/Jeffano/ChatroomApp",
     webapp: "",
   },
@@ -571,5 +577,83 @@ export const projects = [
     github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
     webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
   },
+  {
+    id: 13,
+    title: "Model Car Management System",
+    date: "January 2024 – April 2024",
+    description: "The Model Car Management System is a full-stack web application designed to manage a collection of model cars. The system allows users to add, update, delete, and view detailed information about model cars. The application is built using React for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. The system integrates with user authentication services, ensuring secure access and management of data.",
+    image: ModelCar,
+    tags: [
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Firebase Authentication",
+    ],
+    category: "web-app",
+    github: "https://github.com/Jeffano/CarManagementApp",
+    webapp: "",
+  },
+  {
+    id: 14,
+    title: "AI Recipe Generator",
+    date: "January 2024 – April 2024",
+    description: "Developed a serverless web application designed for AI-powered recipe generation. The application leverages AWS Amplify and React to create an interactive user experience, using Amazon Bedrock and the Claude 3 Sonnet model to generate recipes based on user-provided ingredients. The application integrates user authentication, backend services, and a GraphQL API to provide a seamless and efficient recipe generation experience.",
+    image: RecipeGenerator,
+    tags: [
+      "React",
+      "TypeScript",
+      "Natural Language Processing",
+      "AWS Amplify",
+      "AWS Lambda",
+      "Amazon Bedrock",
+      "Amazon Claude 3 Sonnet",
+      "GraphQL API",
+      "Amazon DynamoDB",
+      "Amazon Cognito"
+    ],
+    category: "web-app",
+    github: "https://github.com/Jeffano/ai-recipe-generator",
+    webapp: "https://youtu.be/5K6dWU0f4bo",
+  },
+  {
+    id: 15,
+    title: "Customer Churn Prediction",
+    date: "May 2024 – August 2024",
+    description: "Developed a predictive model to analyze customer data and identify patterns that could predict churn rates. Leveraging machine learning techniques, particularly logistic regression, the project aimed to help businesses understand customer behavior and proactively address potential churn, thus improving retention rates.",
+    image: CustomerChurn,
+    tags: [
+      "Python",
+      "Panadas",
+      "Machine Learning",
+      "Logistic Regression",
+      "Scikit-learn",
+      "Data Visualization",
+      "Predictive Analytics"
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/Customer-Churn-Prediction",
+    webapp: "",
+  },
+  {
+    id: 16,
+    title: "AI Text Generation GPT-2",
+    date: "May 2024 – August 2024",
+    description: "Created an AI-powered text generation tool using advanced natural language processing techniques. The project utilized Hugging Face's transformer models to generate coherent and contextually relevant text, demonstrating the potential of AI in automating content creation and enhancing human-computer interaction.",
+    image: AITextGenerator,
+    tags: [
+      "Python",
+      "Natural Language Processing",
+      "GPT-2",
+      "AI",
+      "Hugging Face Transformers",
+      "Text Generation",
+      "Language Models"
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/AI-Text-Generation-GPT-2",
+    webapp: "",
+  },
+  
 ];
 
