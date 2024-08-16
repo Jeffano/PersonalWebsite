@@ -55,7 +55,7 @@ export const Bio = {
     "I am a highly motivated and versatile professional with a strong passion for learning and growth. I am committed to delivering exceptional results and thrive on tackling new challenges. With a positive attitude and a relentless drive for excellence, I am prepared to make significant contributions and achieve outstanding success in any endeavor.",
   github: "https://github.com/jeffano",
   resume:
-    "https://drive.google.com/file/d/1Q9-F6Qpu6Goga_3OSaL4sr3AeF6P2QkU/view?usp=sharing",
+    "https://drive.google.com/file/d/10UrBw6tPILB96eYPWFB1NYDRmdIHr70a/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jeffanojohn/",
 };
 
