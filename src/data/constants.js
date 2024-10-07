@@ -538,7 +538,7 @@ export const projects = [
   },
   {
     id: 15,
-    title: "Microcontroller LED GAme",
+    title: "Microcontroller LED Game",
     date: "March 2024",
     description: "This project implements a light sequence with LEDs controlled in a loop. The LEDs are turned on sequentially with a changing pattern based on elapsed time and user button presses. The sequence changes every 10 seconds, and the behavior can be adjusted with button presses. The delay between sequence changes decreases when a specific condition is met.",
     image: MicrocontrollerGame,
