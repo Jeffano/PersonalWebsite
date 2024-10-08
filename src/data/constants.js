@@ -274,7 +274,7 @@ export const experiences = [
     desc: "Developed an AI-driven web application for analyzing DNA sequences, utilizing machine learning for chunking, clustering, and scoring large datasets. Implemented a user-friendly interface for real-time analysis and result visualization. Integrated AI models, including Large Language Models (LLMs), to generate human-readable summaries and actionable insights from complex DNA sequence analyses, enhancing accessibility for non-experts. Scalable backend architecture designed for processing high-throughput DNA data, leveraging Kafka for real-time data flow and MongoDB for efficient result storage and retrieval.",
     skills: [
       "React",
-      "Node.js"
+      "Node.js",
       "MongoDB",
       "Apache Kafka",
       "AWS Cognito",
