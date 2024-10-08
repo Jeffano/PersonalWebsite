@@ -270,7 +270,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKgL2K6bJWK1rJBHM9QAy01N2L2aiX8H6A&s",
     role: "Software Research Assistant",
     company: "Western University",
-    date: "September 2024 - April 2024",
+    date: "September 2024 - April 2025",
     desc: "Developed an AI-driven web application for analyzing DNA sequences, utilizing machine learning for chunking, clustering, and scoring large datasets. Implemented a user-friendly interface for real-time analysis and result visualization. Integrated AI models, including Large Language Models (LLMs), to generate human-readable summaries and actionable insights from complex DNA sequence analyses, enhancing accessibility for non-experts. Scalable backend architecture designed for processing high-throughput DNA data, leveraging Kafka for real-time data flow and MongoDB for efficient result storage and retrieval.",
     skills: [
       "React",
