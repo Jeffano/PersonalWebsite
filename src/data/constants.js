@@ -482,7 +482,7 @@ export const projects = [
     ],
     category: "ml",
     github: "https://github.com/Jeffano/Customer-Churn-Prediction",
-    webapp: "https://youtu.be/Q1V0lZJBVak",
+    webapp: "",
   },
   {
     id: 19,
@@ -648,7 +648,7 @@ export const projects = [
     ],
     category: "ml",
     github: "https://github.com/Jeffano/Grocery-and-Retail-Recommendation-System",
-    webapp: ""
+    webapp: "https://youtu.be/Q1V0lZJBVak"
   },
   {
     id: 9,
