@@ -20,6 +20,9 @@ import MicrocontrollerGame from '../images/MicrocontrollerGame.jpg';
 import RecommendationSystem from '../images/RecommendationSystem.jpg';
 import SingletonController from '../images/SingletonController.jpg';
 import Superhero from '../images/Superhero.png';
+import GeneScope from '../images/GeneScope.png'
+import LaneDetection from '../images/LaneDetection.png'
+import TurboFan from '../images/TurboFan.png'
 
 
 /**
@@ -265,26 +268,6 @@ export const skills = [
 ];
 
 export const experiences = [
-   {
-    id: 7,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKgL2K6bJWK1rJBHM9QAy01N2L2aiX8H6A&s",
-    role: "Software Research Assistant",
-    company: "Western University",
-    date: "September 2024 - April 2025",
-    desc: "Developed GeneScope, an AI-powered genomics platform that uses a fine-tuned GPT-2 model alongside a secure full-stack architecture. Built with React.js, Node.js/Express, MongoDB, and AWS (Amplify, Cognito, S3, API Gateway), the system enables real-time DNA file processing, D3.js-based visual insights, and PDF reporting—demonstrating the integration of machine learning and cloud technologies in healthcare data analysis.",
-    skills: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Amplify",
-      "AWS Cognito",
-      "AWS S3",
-      "AWS API Gateway",
-      "Machine Learning",
-      "Large Language Models (LLM)",
-    ],
-    doc: "",
-  },
   {
     id: 6,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKsL4RPjRVn1G6ii2l-mA6LG_vnNBG52KbQ&s",
@@ -418,6 +401,105 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 25,
+    title: "GeneScope",
+    date: "September 2024 - April 2025",
+    description: "Designed and developed a full-stack web platform that enables efficient DNA sequence analysis through AI integration and real-time data visualization. Built using React.js, Node.js/Express, MongoDB, and AWS services (Amplify, Cognito, S3), the platform streamlined genomic workflows—doubling analysis speed for laboratory users. Key features include a secure file processing pipeline for seamless data upload, tracking, and retrieval, as well as custom REST APIs that power AI-generated genetic insights. Integrated GPT-2 and LLaMA models to deliver accessible interpretations of genetic data, enhancing usability for both technical and non-technical users.",
+    image: GeneScope,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "AWS Amplify",
+      "AWS Cognito",
+      "AWS S3",
+      "REST API",
+      "GPT-2",
+      "LLaMA",
+      "AI",
+    ],    
+    category: "web-app",
+    github: "",
+    webapp: "https://youtu.be/mODFWydZKWs",
+    /** 
+    member: [
+      {
+        name: "",
+        img: "",
+        linkedin: "",
+        github: "",
+      },
+    ],
+    */
+  },
+  {
+    id: 24,
+    title: "Predicting Lane Boundaries",
+    date: "March 2025",
+    description: "Developed a lane detection system for autonomous vehicles by combining traditional computer vision techniques with deep learning. Used Canny and Sobel edge detection, Hough Transform, and a custom VGG16-UNet architecture trained on the TuSimple dataset. The model achieved 97.72% validation accuracy and demonstrated strong performance in segmenting lane boundaries. Preprocessing steps included grayscale conversion, ROI masking, and brightness normalization. While the system performed well under standard conditions, future improvements were identified for generalization to complex and low-visibility environments.",
+    image: LaneDetection,
+    tags: [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "Keras",
+      "VGG16",
+      "UNet",
+      "Computer Vision",
+      "Edge Detection",
+      "Hough Transform",
+      "Image Segmentation",
+    ],    
+    category: "ml",
+    github: "https://github.com/Jeffano/Predicting-Lane-Boundaries",
+    webapp: "",
+    /** 
+    member: [
+      {
+        name: "",
+        img: "",
+        linkedin: "",
+        github: "",
+      },
+    ],
+    */
+  },
+  {
+    id: 23,
+    title: "Remaining Useful Life Prediction",
+    date: "October 2024",
+    description: "Developed a machine learning system to predict the Remaining Useful Life (RUL) of jet engines using NASA's C-MAPSS dataset. The project applied time-series sensor data and implemented models like Linear Regression, Random Forest, SVR with PCA, and LSTM. Emphasis was placed on data preprocessing, feature selection, and dimensionality reduction to improve model accuracy. LSTM and SVR performed best, capturing complex temporal patterns and reducing noise. The system supports predictive maintenance by transforming sensor data into actionable insights, helping reduce engine failures and maintenance costs.",
+    image: TurboFan,
+    tags: [
+      "Python",
+      "Scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "LSTM",
+      "SVR",
+      "Random Forest",
+      "PCA",
+      "Predictive Maintenance",
+      "Time-Series Analysis",
+      "Machine Learning",
+      "NASA C-MAPSS"
+    ],    
+    category: "ml",
+    github: "https://github.com/Jeffano/Remaining-Useful-Life-Prediction",
+    webapp: "https://youtu.be/DRU52p_B_oE",
+    /** 
+    member: [
+      {
+        name: "",
+        img: "",
+        linkedin: "",
+        github: "",
+      },
+    ],
+    */
+  },
   {
     id: 22,
     title: "AI Recipe Generator",
