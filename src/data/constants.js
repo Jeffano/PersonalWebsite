@@ -421,7 +421,7 @@ export const projects = [
       "AI",
     ],    
     category: "web-app",
-    github: "",
+    github: "https://github.com/Jeffano/GeneScope",
     webapp: "https://youtu.be/mODFWydZKWs",
     /** 
     member: [
