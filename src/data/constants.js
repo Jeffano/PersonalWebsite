@@ -269,6 +269,18 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 7,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKgL2K6bJWK1rJBHM9QAy01N2L2aiX8H6A&s",
+    role: "Software Reseach Assisstant",
+    company: "Western University",
+    date: "May 2025 - August 2025",
+    desc: "",
+    skills: [
+      "Machine Learning",
+    ],
+    doc: "",
+  },
+  {
     id: 6,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjKsL4RPjRVn1G6ii2l-mA6LG_vnNBG52KbQ&s",
     role: "Software Developer",
