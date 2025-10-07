@@ -275,7 +275,7 @@ export const experiences = [
     company: "KData AI",
     date: "June 2025 - Present",
     desc: "Led deployment and validation of over 160+ Databricks Delta tables and Informatica mappings through end-to-end CI/CD pipelines in Azure DevOps, improving data ingestion reliability and eliminating manual interventions during environment promotions. Automated ingestion workflows across GCP and Azure Databricks using Autoloader, tokenized paths, and standardized Delta table properties—reducing deployment errors by 40% and accelerating staging timelines. Collaborated with Data Governance and Platform teams to author and enhance DDLs in SQL, adding complete table and column-level metadata, ensuring full compliance with data lineage and cataloging standards.Optimized data ingestion and transformation pipelines from Netezza and DB2K to GCP, defining scalable schema, checkpoint, and validation strategies that supported high-volume (~1B row) datasets and near-real-time CDC ingestion.",
-    sskills: [
+    skills: [
       "Azure DevOps",
       "Databricks",
       "GCP",
