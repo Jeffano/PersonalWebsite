@@ -1,29 +1,28 @@
-import CheerWebsiteImage from '../images/CheerWebsite.png';
-import ChatroomImage from '../images/Chatroom.png';
-import PigeonPlexImage from '../images/PigeonPlex.jpg';
-import CalculatorImage from '../images/Calculator.png';
-import Connect4 from '../images/Connect4.jpg';
-import Watercooler from '../images/TheWatercooler.jpg';
-import PythonSnake from '../images/PythonSnake.jpg';
-import iFinance from '../images/iFinance.png';
-import MoneyTranslate from '../images/MoneyTranslate.png';
-import SalesForecasting from '../images/SalesForecasting.png';
-import SortingMethod from '../images/SortingMethod.png';
-import TennisDB from '../images/TennisDB.png';
-import BattleGame from '../images/BattleGame.png';
-import CustomerChurn from '../images/CustomerChurn.jpg';
-import AITextGenerator from '../images/AITextGenerator.jpg';
-import ModelCar from '../images/ModelCar.png';
-import RecipeGenerator from '../images/RecipeGenerator.jpg';
-import DHTTable from '../images/DHTTable.jpg';
-import MicrocontrollerGame from '../images/MicrocontrollerGame.jpg';
-import RecommendationSystem from '../images/RecommendationSystem.jpg';
-import SingletonController from '../images/SingletonController.jpg';
-import Superhero from '../images/Superhero.png';
-import GeneScope from '../images/GeneScope.png'
-import LaneDetection from '../images/LaneDetection.png'
-import TurboFan from '../images/TurboFan.png'
-
+import CheerWebsiteImage from "../images/CheerWebsite.png";
+import ChatroomImage from "../images/Chatroom.png";
+import PigeonPlexImage from "../images/PigeonPlex.jpg";
+import CalculatorImage from "../images/Calculator.png";
+import Connect4 from "../images/Connect4.jpg";
+import Watercooler from "../images/TheWatercooler.jpg";
+import PythonSnake from "../images/PythonSnake.jpg";
+import iFinance from "../images/iFinance.png";
+import MoneyTranslate from "../images/MoneyTranslate.png";
+import SalesForecasting from "../images/SalesForecasting.png";
+import SortingMethod from "../images/SortingMethod.png";
+import TennisDB from "../images/TennisDB.png";
+import BattleGame from "../images/BattleGame.png";
+import CustomerChurn from "../images/CustomerChurn.jpg";
+import AITextGenerator from "../images/AITextGenerator.jpg";
+import ModelCar from "../images/ModelCar.png";
+import RecipeGenerator from "../images/RecipeGenerator.jpg";
+import DHTTable from "../images/DHTTable.jpg";
+import MicrocontrollerGame from "../images/MicrocontrollerGame.jpg";
+import RecommendationSystem from "../images/RecommendationSystem.jpg";
+import SingletonController from "../images/SingletonController.jpg";
+import Superhero from "../images/Superhero.png";
+import GeneScope from "../images/GeneScope.png";
+import LaneDetection from "../images/LaneDetection.png";
+import TurboFan from "../images/TurboFan.png";
 
 /**
 {
@@ -43,19 +42,16 @@ import TurboFan from '../images/TurboFan.png'
   Categories: web-app, ml, python, java;
  */
 
-
-
 export const Bio = {
   name: "Jeffano John",
   roles: [
-    "Full Stack Developer",
-    "Software Developer",
-    "ML/AI Developer",
-    "Backend Developer",
-    "Project Manager"
+    "Software Engineer",
+    "Data Engineer",
+    "Full Stack Engineer",
+    "ML/AI Engineer",
   ],
   description:
-    "I am a highly motivated and versatile professional with a strong passion for learning and growth. I am committed to delivering exceptional results and thrive on tackling new challenges. With a positive attitude and a relentless drive for excellence, I am prepared to make significant contributions and achieve outstanding success in any endeavor.",
+  "I am a Software and Data Engineer focused on building reliable, scalable systems across cloud and distributed environments. My work spans data platform engineering, CI/CD automation, backend services, and AI-driven applications. I enjoy designing clean architectures, improving system reliability, and turning complex workflows into production-ready solutions that create measurable impact.",
   github: "https://github.com/jeffano",
   resume:
     "https://drive.google.com/file/d/11WIMuiYR9z6sSAzEZt67mAouulRnrNWQ/view?usp=sharing",
@@ -64,20 +60,63 @@ export const Bio = {
 
 export const skills = [
   {
+    title: "Data Engineering",
+    skills: [
+      {
+        name: "Databricks",
+        image:
+          "https://seeklogo.com/images/D/databricks-logo-0E4F8E4B28-seeklogo.com.png",
+      },
+      {
+        name: "Apache Spark",
+        image:
+          "https://seeklogo.com/images/A/apache-spark-logo-F75661E09A-seeklogo.com.png",
+      },
+      {
+        name: "Delta Lake",
+        image: "https://delta.io/static/og-image.png",
+      },
+      {
+        name: "Google Cloud Platform",
+        image:
+          "https://seeklogo.com/images/G/google-cloud-logo-A411C3E9E7-seeklogo.com.png",
+      },
+      {
+        name: "Unity Catalog",
+        image:
+          "https://www.databricks.com/wp-content/uploads/2022/08/unity-catalog.png",
+      },
+      {
+        name: "ETL / ELT",
+        image: "https://cdn-icons-png.flaticon.com/512/2165/2165004.png",
+      },
+      {
+        name: "CDC",
+        image: "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+      },
+      {
+        name: "SQL",
+        image:
+          "https://seeklogo.com/images/S/sql-logo-3D0FBBDF0A-seeklogo.com.png",
+      },
+    ],
+  },
+
+  {
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Next Js",
+        name: "Next.js",
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
       {
-        name: "Angular Js",
+        name: "Angular",
         image:
           "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
       },
@@ -100,23 +139,21 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      {
-        name: "AWS Amplify",
-        image: "https://seeklogo.com/images/A/aws-amplify-logo-D68DDB5AB1-seeklogo.com.png"
-      },
     ],
   },
+
   {
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
-        image: "https://banner2.cleanpng.com/20180425/jrw/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e2a4242.1423638015246930701731.jpg",
+        name: "Node.js",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
       },
       {
-        name: "Express Js",
+        name: "Express.js",
         image:
-          "data:image/png;base64,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",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
       },
       {
         name: "Python",
@@ -124,14 +161,18 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "Flask",
-        image:
-          "https://cms-assets.tutsplus.com/uploads/users/30/posts/16037/preview_image/flask.png",
+        name: "Django",
+        image: "https://www.svgrepo.com/show/353657/django-icon.svg",
       },
       {
-        name: "Django",
+        name: "Flask",
         image:
-          "https://www.svgrepo.com/show/353657/django-icon.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
       },
       {
         name: "MySQL",
@@ -139,34 +180,20 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "Amazon AppSync",
-        image: "https://seeklogo.com/images/A/aws-appsync-logo-1B6E8E9937-seeklogo.com.png"
-      },
-      {
-        name: "AWS Lambda",
-        image: "https://seeklogo.com/images/A/aws-lambda-logo-AE95CFC218-seeklogo.com.png"
-      },
-      {
-        name: "AWS DynamoDB",
-        image: "https://seeklogo.com/images/A/aws-dynamodb-logo-CF7BCC577D-seeklogo.com.png"
+        name: "GraphQL",
+        image:
+          "https://seeklogo.com/images/G/graphql-logo-97CBBB6D51-seeklogo.com.png",
       },
     ],
   },
+
   {
-    title: "DevOps",
+    title: "Cloud & DevOps",
     skills: [
       {
         name: "AWS",
@@ -182,67 +209,70 @@ export const skills = [
         name: "Nginx",
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
       {
-        name: "Python",
+        name: "AWS Lambda",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          "https://seeklogo.com/images/A/aws-lambda-logo-AE95CFC218-seeklogo.com.png",
       },
       {
-        name: "Tenserflow",
+        name: "AWS DynamoDB",
+        image:
+          "https://seeklogo.com/images/A/aws-dynamodb-logo-CF7BCC577D-seeklogo.com.png",
+      },
+      {
+        name: "CI/CD",
+        image: "https://cdn-icons-png.flaticon.com/512/1048/1048943.png",
+      },
+    ],
+  },
+
+  {
+    title: "AI & Machine Learning",
+    skills: [
+      {
+        name: "TensorFlow",
         image:
           "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+      },
+      {
+        name: "Scikit Learn",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+      },
+      {
+        name: "Hugging Face Transformers",
+        image: "https://huggingface.co/front/assets/huggingface_logo.svg",
+      },
+      {
+        name: "Amazon Bedrock",
+        image:
+          "https://converteo.com/app/uploads/2024/02/Amazon-Bedrock-2-1330x1064-c-center.jpg",
       },
       {
         name: "Jupyter",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
       },
-      {
-        name: "Google Colab",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/1280px-Google_Colaboratory_SVG_Logo.svg.png",
-      },
-      {
-        name: "Skikit Learn",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-      {
-        name: "Amazon Bedrock",
-        image: "https://converteo.com/app/uploads/2024/02/Amazon-Bedrock-2-1330x1064-c-center.jpg"
-      },
-      {
-        name: "Claude 3 Sonnet",
-        image: "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620.png&w=3840&q=75"
-      },
-      {
-        name: "Hugging Face Transformers",
-        image: "https://huggingface.co/front/assets/huggingface_logo.svg"
-      }
     ],
   },
+
   {
-    title: "Others",
+    title: "Tools",
     skills: [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       },
       {
         name: "Postman",
@@ -254,15 +284,6 @@ export const skills = [
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
-      {
-        name: "Amazon Cognito",
-        image: "https://seeklogo.com/images/A/aws-cognito-logo-ADE65FC971-seeklogo.com.png"
-      },
-      {
-        name: "GraphQL",
-        image: "https://seeklogo.com/images/G/graphql-logo-97CBBB6D51-seeklogo.com.png"
-      }
-
     ],
   },
 ];
@@ -274,19 +295,18 @@ export const experiences = [
     role: "Data Engineer",
     company: "KData AI",
     date: "June 2025 - Present",
-    desc: "Led deployment and validation of over 160+ Databricks Delta tables and Informatica mappings through end-to-end CI/CD pipelines in Azure DevOps, improving data ingestion reliability and eliminating manual interventions during environment promotions. Automated ingestion workflows across GCP and Azure Databricks using Autoloader, tokenized paths, and standardized Delta table properties—reducing deployment errors by 40% and accelerating staging timelines. Collaborated with Data Governance and Platform teams to author and enhance DDLs in SQL, adding complete table and column-level metadata, ensuring full compliance with data lineage and cataloging standards.Optimized data ingestion and transformation pipelines from Netezza and DB2K to GCP, defining scalable schema, checkpoint, and validation strategies that supported high-volume (~1B row) datasets and near-real-time CDC ingestion.",
+    desc: "Led deployment and validation of 160+ Databricks Delta tables and Informatica mappings through end-to-end CI/CD pipelines in Azure DevOps, eliminating manual promotion steps and significantly improving ingestion reliability across environments. Designed and automated ingestion workflows on GCP and Azure Databricks using Auto Loader, tokenized paths, standardized Delta table properties, and structured checkpointing—reducing deployment errors by 40% and accelerating staging timelines. Partnered with Data Governance and Platform teams to enhance DDL definitions in SQL, implementing comprehensive table and column-level metadata to ensure full lineage, catalog compliance, and audit readiness. Optimized ingestion and transformation pipelines from Netezza and DB2 to GCP, defining scalable schema strategies that supported high-volume (~1B row) datasets and near real-time CDC processing.",
     skills: [
-      "Azure DevOps",
       "Databricks",
+      "Azure DevOps",
       "GCP",
       "Informatica IICS",
       "SQL",
       "Python",
       "CI/CD",
-      "Data Modeling",
-      "ETL Pipelines",
+      "Delta Lake",
+      "CDC",
     ],
-    doc: "",
   },
   {
     id: 7,
@@ -294,7 +314,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Western University",
     date: "May 2025 - August 2025",
-    desc: "Led frontend development of a multi-project Admin Dashboard (IDSL Administrator) and AI Chat Interface, architected with React + Vite + TypeScript, integrating hierarchical RBAC, real-time SSE chat, RAG document uploads, and multi-source paper downloads. Centralized access control and automated provisioning across research projects, reducing manual admin effort ~50% and cutting onboarding time from 1 day to < 4 hours through bulk operations, advanced search, and audit trail systems. Accelerated research workflows ~60% by unifying chat, literature retrieval, and document processing—enabling seamless AI interactions, streaming responses, and MySQL/PostgreSQL database-aware conversations within one platform. Enhanced reliability and scalability via JWT auth, input validation, lazy loading, and a modular typed API architecture—improving performance ~40% and reducing defect rate ~20%, while enabling faster future feature delivery.",
+    desc: "Led frontend development of a multi-project Admin Dashboard and AI Chat Interface using React, Vite, and TypeScript, implementing hierarchical RBAC, real-time SSE chat, RAG document uploads, and multi-source data integrations. Centralized access control and automated user provisioning, reducing manual administrative effort by ~50% and cutting onboarding time from 1 day to under 4 hours. Accelerated research workflows by ~60% by unifying chat, literature retrieval, and document processing into a single platform. Improved reliability and scalability through JWT-based authentication, input validation, lazy loading, and a modular typed API architecture—boosting performance by ~40% and reducing defects by ~20%.",
     skills: [
       "React",
       "Vite",
@@ -315,7 +335,7 @@ export const experiences = [
     role: "Software Developer",
     company: "OGES INFOTECH",
     date: "May 2024 - August 2024",
-    desc: "Modernized OGES’s development pipeline by integrating Jenkins-based CI/CD workflows, enabling automatic validation of Spring Boot microservices and unit tests on every push—reducing integration issues by 45% and cutting release cycle time by 30%. Led a security audit of OGES’s authentication system, uncovering outdated MD5 hashing vulnerabilities using Hashcat password cracking simulations. Proposed and implemented a transition to bcrypt with 12+ salt rounds and strengthened password policies—increasing password entropy and reducing brute-force vulnerability window by 80%. Enhanced a financial analytics dashboard by developing Java-based visualizations of live stock risk data, modeling loan workflows with UML state diagrams, and researching ML-based credit scoring models. These improvements supported a 60% improvement in data clarity for internal stakeholders and laid the groundwork for an AI-driven loan risk evaluation engine.",
+    desc: "Modernized the development pipeline by integrating Jenkins-based CI/CD workflows, enabling automated validation of Spring Boot microservices and unit tests on each push—reducing integration issues by 45% and shortening release cycles by 30%. Conducted a security audit of the authentication system, identifying MD5 hashing vulnerabilities through Hashcat-based simulations and leading migration to bcrypt with 12+ salt rounds, reducing brute-force risk exposure by 80%. Enhanced a financial analytics dashboard with Java-based visualizations of live stock risk data, modeled loan workflows using UML state diagrams, and researched ML-based credit scoring approaches, improving data clarity for stakeholders by 60%.",
     skills: [
       "Java",
       "Spring Boot",
@@ -333,7 +353,7 @@ export const experiences = [
     role: "Software Developer",
     company: "OGES INFOTECH",
     date: "May 2023 - August 2023",
-    desc: "Utilized the Point of Sale (POS) system to enable seamless payments via credit, debit, and gift cards, while also powering an event ticketing app and online parking payment solutions. Led settlement processes by creating customized merchant settlement files, ensuring accurate transaction categorization and mapping. Developed a robust communication framework for transmitting settlement files to acquiring institutions and monitoring real-time status updates. Utilized database expertise to update transaction statuses based on acquiring institution feedback, maintaining accurate records.Achieved a 30% increase in payment processing efficiency and a 20% reduction in settlement processing time through integration and acknowledgment system enhancements. Collaborated with cross-functional teams to overcome technical challenges and enhance data accuracy, fostering a culture of innovation and collaboration.",
+    desc: "Enhanced a Point of Sale system supporting credit, debit, and gift card transactions, event ticketing, and online parking payments. Led merchant settlement processes by generating customized settlement files and designing a reliable communication framework for transmitting files to acquiring institutions with real-time status tracking. Improved transaction reconciliation workflows by updating database states based on acquiring institution feedback, achieving a 30% increase in processing efficiency and a 20% reduction in settlement time.",
     skills: [
       "Java",
       "Postman API",
@@ -350,8 +370,8 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/C4D0BAQGSi5ChozrPQA/company-logo_200_200/0/1630478722933/westernuai_logo?e=2147483647&v=beta&t=tDoyrlvKYSbxXM9QKI45GOojZCAGPsVuFNA4wI1iR4M",
     role: "Lead Software Developer",
     company: "Western AI",
-    date: "September 2022 - April 2022",
-    desc: "Spearheaded a team of 5 developers in building a machine learning model using Jupyter Notebooks, TensorFlow, Scikit-learn, and XGBoost to accurately predict item sales with a 5% margin of error.  Oversaw the implementation of data pre-processing and the creation of the data frame for predictions.  Guided the team in utilizing various technologies, including Python, Jupyter Notebooks, TensorFlow, Scikit-learn, Numpy, Pandas, XGBoost, and Matplotlib  Ensured effective collaboration and knowledge sharing among team members, leading to the successful development of the sales forecasting model.",
+    date: "September 2022 - April 2023",
+    desc: "Led a team of 5 developers to build a machine learning sales forecasting model using TensorFlow, Scikit-learn, and XGBoost, achieving predictions within a 5% margin of error. Directed data preprocessing and feature engineering workflows while coordinating collaborative model experimentation and validation. Ensured structured development practices and knowledge sharing, resulting in a reliable and production-ready forecasting solution.",
     skills: [
       "Java",
       "Python",
@@ -369,7 +389,7 @@ export const experiences = [
     role: "Software Developer",
     company: "The Buckmaster Institute Inc",
     date: "May 2022 - September 2022",
-    desc: "Transcribed hard-coded Python scripts to improve efficiency by future proofing the implementation of developed Python scripts that transcribe audio recordings to musical notation while detecting different frequencies within the file.  Produced audio files of different frequencies using a Python sound library - pyAudioAnalysis while plotting music notations to analyze the sound quality that was being generated with an accuracy rate of 87%  Developed Python scripts of well-constructed, testable code for transcribing recordings; improved its efficiency by 95%  Submitted 20+ company database entries of CSV file analysis using various python packages such as SciPy, NumPy, Plac, StatsModels and Matplotlb  Created educational weekly instruction videos for the employer’s YouTube channel covering various topics related to software development that increased average viewership by 72%",
+    desc: "Refactored and productionized Python scripts for transcribing audio recordings into musical notation, improving runtime efficiency by 95%. Generated frequency-based audio samples using pyAudioAnalysis and analyzed waveform accuracy with an 87% precision rate. Conducted CSV-based data analysis using SciPy, NumPy, StatsModels, and Matplotlib, contributing over 20 database entries. Produced weekly technical education videos that increased average viewership by 72%.",
     skills: [
       "Python",
       "NumPy",
@@ -388,10 +408,7 @@ export const experiences = [
     company: "Astro STEM Labs",
     date: "July 2020 - August 2021",
     desc: "Providing interactive one-on-one tutoring sessions for mathematics and assisting in developing stronger learning and studying techniques while enhancing communication and active listening skills. ",
-    skills: [
-      "MatheMatics",
-      "Problem Solving"
-    ],
+    skills: ["Mathematics", "Problem Solving"],
     doc: "",
   },
   {
@@ -417,17 +434,17 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKgL2K6bJWK1rJBHM9QAy01N2L2aiX8H6A&s",
     school: "Western University",
     date: "September 2021 - April 2025",
-    grade: " 82%",
-    desc: "I am currently in my 4th year pursuing a Bachelor's degree in Software Engineering at Western University. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and more. Activities and societies I'm involved in include the Western Founders Network (WFN), Pre-Business Students’ Network (PBSN), and Western AI where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Engineering Science, Software Engineering ",
+    grade: "82%",
+    desc: "Bachelor of Engineering Science in Software Engineering. Coursework included Data Structures and Algorithms, Operating Systems, Database Systems, Computer Networks, and Object-Oriented Design. Actively involved in Western AI and the Western Founders Network, contributing to collaborative technical projects and interdisciplinary initiatives.",
+    degree: "Bachelor of Engineering Science, Software Engineering",
   },
   {
     id: 1,
     img: "https://pbs.twimg.com/profile_images/1829694977/xavier-crest-original_400x400.jpg",
     school: "St. Francis Xavier Secondary School",
     date: "September 2017 - June 2021",
-    grade: " 97%",
-    desc: "I completed grades 9 through 12 at Francis Xavier. During this time, I was actively involved in the Engineering club and participated in the Specialist High Skills Major (SHSM) program in Transportation. In my final year, I had the privilege of serving as the president of the Engineering club.",
+    grade: "97%",
+    desc: "Ontario Secondary School Diploma. Served as President of the Engineering Club and participated in the Specialist High Skills Major (SHSM) program in Transportation, focusing on applied engineering and technical leadership.",
     degree: "Ontario Secondary School Diploma (OSSD)",
   },
   {
@@ -435,8 +452,8 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/International_Baccalaureate_Logo.svg/2048px-International_Baccalaureate_Logo.svg.png",
     school: "St. Francis Xavier Secondary School, IB Program",
     date: "September 2019 - June 2021",
-    grade: " 97%",
-    desc: "I completed the International Baccalaureate (IB) program over two years, from 2019 to 2021. During this time, I studied Higher Level (HL) courses in Mathematics, Physics, and Economics, and Standard Level (SL) courses in Chemistry, English, and French.",
+    grade: "97%",
+    desc: "Completed the International Baccalaureate Diploma with Higher Level courses in Mathematics, Physics, and Economics, and Standard Level courses in Chemistry, English, and French.",
     degree: "International Baccalaureate (IB) Diploma",
   },
 ];
@@ -444,9 +461,32 @@ export const education = [
 export const projects = [
   {
     id: 25,
+    title: "Predicting Lane Boundaries",
+    date: "March 2025",
+    description:
+      "Developed a lane detection system for autonomous vehicles by combining traditional computer vision with deep learning. Implemented Canny and Sobel edge detection, Hough Transform, and a custom VGG16 UNet segmentation model trained on the TuSimple dataset. Achieved 97.72% validation accuracy through preprocessing steps including grayscale conversion, ROI masking, and brightness normalization, with clear next steps identified for robustness in low visibility conditions.",
+    image: LaneDetection,
+    tags: [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "Keras",
+      "VGG16",
+      "UNet",
+      "Computer Vision",
+      "Hough Transform",
+      "Image Segmentation",
+    ],
+    category: "ml",
+    github: "https://github.com/Jeffano/Predicting-Lane-Boundaries",
+    webapp: "",
+  },
+  {
+    id: 24,
     title: "GeneScope",
     date: "September 2024 - April 2025",
-    description: "Designed and developed a full-stack web platform that enables efficient DNA sequence analysis through AI integration and real-time data visualization. Built using React.js, Node.js/Express, MongoDB, and AWS services (Amplify, Cognito, S3), the platform streamlined genomic workflows—doubling analysis speed for laboratory users. Key features include a secure file processing pipeline for seamless data upload, tracking, and retrieval, as well as custom REST APIs that power AI-generated genetic insights. Integrated GPT-2 and LLaMA models to deliver accessible interpretations of genetic data, enhancing usability for both technical and non-technical users.",
+    description:
+      "Designed and developed a full stack genomic analysis platform with AI assisted interpretation and real time visualization. Built with React.js, Node.js and Express, MongoDB, and AWS services including Amplify, Cognito, and S3. Implemented a secure file processing pipeline for uploads, tracking, and retrieval, and custom REST APIs that deliver AI generated genetic insights. Integrated GPT 2 and LLaMA models to produce accessible explanations for both technical and non technical users, doubling analysis speed for laboratory workflows.",
     image: GeneScope,
     tags: [
       "React.js",
@@ -460,58 +500,17 @@ export const projects = [
       "GPT-2",
       "LLaMA",
       "AI",
-    ],    
+    ],
     category: "web-app",
     github: "https://github.com/Jeffano/GeneScope",
     webapp: "https://youtu.be/mODFWydZKWs",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
-    */
-  },
-  {
-    id: 24,
-    title: "Predicting Lane Boundaries",
-    date: "March 2025",
-    description: "Developed a lane detection system for autonomous vehicles by combining traditional computer vision techniques with deep learning. Used Canny and Sobel edge detection, Hough Transform, and a custom VGG16-UNet architecture trained on the TuSimple dataset. The model achieved 97.72% validation accuracy and demonstrated strong performance in segmenting lane boundaries. Preprocessing steps included grayscale conversion, ROI masking, and brightness normalization. While the system performed well under standard conditions, future improvements were identified for generalization to complex and low-visibility environments.",
-    image: LaneDetection,
-    tags: [
-      "Python",
-      "OpenCV",
-      "TensorFlow",
-      "Keras",
-      "VGG16",
-      "UNet",
-      "Computer Vision",
-      "Edge Detection",
-      "Hough Transform",
-      "Image Segmentation",
-    ],    
-    category: "ml",
-    github: "https://github.com/Jeffano/Predicting-Lane-Boundaries",
-    webapp: "",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
-    */
   },
   {
     id: 23,
     title: "Remaining Useful Life Prediction",
     date: "October 2024",
-    description: "Developed a machine learning system to predict the Remaining Useful Life (RUL) of jet engines using NASA's C-MAPSS dataset. The project applied time-series sensor data and implemented models like Linear Regression, Random Forest, SVR with PCA, and LSTM. Emphasis was placed on data preprocessing, feature selection, and dimensionality reduction to improve model accuracy. LSTM and SVR performed best, capturing complex temporal patterns and reducing noise. The system supports predictive maintenance by transforming sensor data into actionable insights, helping reduce engine failures and maintenance costs.",
+    description:
+      "Built a predictive maintenance system to estimate remaining useful life of jet engines using the NASA C MAPSS dataset. Modeled time series sensor data using Linear Regression, Random Forest, SVR with PCA, and LSTM, with LSTM and SVR performing best on capturing temporal degradation patterns. Focused on preprocessing, feature selection, and dimensionality reduction to improve signal quality and reduce noise, turning raw sensor streams into actionable maintenance insights.",
     image: TurboFan,
     tags: [
       "Python",
@@ -523,67 +522,48 @@ export const projects = [
       "Random Forest",
       "PCA",
       "Predictive Maintenance",
-      "Time-Series Analysis",
-      "Machine Learning",
-      "NASA C-MAPSS"
-    ],    
+      "Time Series Analysis",
+      "NASA C-MAPSS",
+    ],
     category: "ml",
     github: "https://github.com/Jeffano/Remaining-Useful-Life-Prediction",
     webapp: "https://youtu.be/DRU52p_B_oE",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
-    */
   },
   {
     id: 22,
     title: "AI Recipe Generator",
     date: "August 2024",
-    description: "Developed a serverless web application designed for AI-powered recipe generation. The application leverages AWS Amplify and React to create an interactive user experience, using Amazon Bedrock and the Claude 3 Sonnet model to generate recipes based on user-provided ingredients. The application integrates user authentication, backend services, and a GraphQL API to provide a seamless and efficient recipe generation experience.",
+    description:
+      "Developed a serverless web application for AI powered recipe generation using React and AWS Amplify. Integrated Amazon Bedrock with Claude 3 Sonnet to generate recipes from user provided ingredients. Implemented authentication with Amazon Cognito and a GraphQL API backed by DynamoDB to support a smooth end to end user experience.",
     image: RecipeGenerator,
     tags: [
+      "React",
       "AWS Amplify",
       "AWS Lambda",
       "Amazon Bedrock",
-      "Amazon Claude 3 Sonnet",
-      "GraphQL API",
+      "Claude 3 Sonnet",
+      "GraphQL",
       "Amazon DynamoDB",
-      "Amazon Cognito"
+      "Amazon Cognito",
     ],
     category: "web-app",
     github: "https://github.com/Jeffano/ai-recipe-generator",
     webapp: "https://youtu.be/5K6dWU0f4bo",
-    /** 
-    member: [
-      {
-        name: "",
-        img: "",
-        linkedin: "",
-        github: "",
-      },
-    ],
-    */
   },
   {
     id: 21,
     title: "AI Text Generation GPT-2",
-    date: "May 2024 – August 2024",
-    description: "Created an AI-powered text generation tool using advanced natural language processing techniques. The project utilized Hugging Face's transformer models to generate coherent and contextually relevant text, demonstrating the potential of AI in automating content creation and enhancing human-computer interaction.",
+    date: "May 2024 - August 2024",
+    description:
+      "Built an AI powered text generation tool using Hugging Face Transformers and GPT 2. Implemented prompt driven generation workflows and evaluation experiments to produce coherent, context aware outputs, demonstrating practical NLP applications for automated content creation.",
     image: AITextGenerator,
     tags: [
       "Python",
-      "Natural Language Processing",
+      "NLP",
       "GPT-2",
-      "AI",
       "Hugging Face Transformers",
       "Text Generation",
-      "Language Models"
+      "Language Models",
     ],
     category: "ml",
     github: "https://github.com/Jeffano/AI-Text-Generation-GPT-2",
@@ -592,17 +572,18 @@ export const projects = [
   {
     id: 20,
     title: "Customer Churn Prediction",
-    date: "May 2024 – August 2024",
-    description: "Developed a predictive model to analyze customer data and identify patterns that could predict churn rates. Leveraging machine learning techniques, particularly logistic regression, the project aimed to help businesses understand customer behavior and proactively address potential churn, thus improving retention rates.",
+    date: "May 2024 - August 2024",
+    description:
+      "Developed a churn prediction model to identify customers at risk of leaving based on historical usage and account features. Trained and evaluated classification approaches including logistic regression, emphasizing feature engineering, model interpretability, and clear performance reporting for retention focused decision making.",
     image: CustomerChurn,
     tags: [
       "Python",
-      "Panadas",
+      "Pandas",
+      "Scikit-learn",
       "Machine Learning",
       "Logistic Regression",
-      "Scikit-learn",
       "Data Visualization",
-      "Predictive Analytics"
+      "Predictive Analytics",
     ],
     category: "ml",
     github: "https://github.com/Jeffano/Customer-Churn-Prediction",
@@ -611,130 +592,95 @@ export const projects = [
   {
     id: 19,
     title: "Model Car Management System",
-    date: "May 2024 – August 2024",
-    description: "The Model Car Management System is a full-stack web application designed to manage a collection of model cars. The system allows users to add, update, delete, and view detailed information about model cars. The application is built using React for the frontend, Node.js with Express.js for the backend, and MongoDB for data storage. The system integrates with user authentication services, ensuring secure access and management of data.",
+    date: "May 2024 - August 2024",
+    description:
+      "Built a full stack CRUD web application for managing a collection of model cars. Developed a React frontend, Node.js and Express backend, and MongoDB data layer with secure authentication. Implemented create, update, delete, and search workflows with clean data validation and user friendly views for browsing detailed inventory records.",
     image: ModelCar,
-    tags: [
-      "React",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-      "Firebase",
-    ],
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "Firebase"],
     category: "web-app",
     github: "https://github.com/Jeffano/CarManagementApp",
     webapp: "",
   },
   {
     id: 18,
+    title: "Microcontroller LED Game",
+    date: "March 2024",
+    description:
+      "Built an embedded LED sequence game in C featuring timed pattern changes and interactive button controls. Implemented state based sequencing logic with dynamic delays and user driven behavior changes, emphasizing deterministic timing and responsive input handling.",
+    image: MicrocontrollerGame,
+    tags: ["C", "Embedded Systems", "GPIO", "Timing", "State Machines"],
+    category: "embedded",
+    github: "https://github.com/Jeffano/Microcontroller-LED-Game",
+    webapp: "",
+  },
+  {
+    id: 17,
+    title: "Singleton Controller for Networking",
+    date: "March 2024",
+    description:
+      "Implemented a singleton module for managing sequence numbers and timestamps in a networked application. Added safe increment logic and periodic timestamp updates with 32 bit rollover constraints to support consistent packet ordering and timing metadata across sessions.",
+    image: SingletonController,
+    tags: ["JavaScript", "Networking", "Design Patterns"],
+    category: "systems",
+    github: "https://github.com/Jeffano/Singleton-Controller-for-Networking",
+    webapp: "",
+  },
+  {
+    id: 16,
+    title: "DHT Table Management System",
+    date: "February 2024",
+    description:
+      "Implemented core utilities for managing a Distributed Hash Table including packet creation, prefix length computation, bucket maintenance, and peer metadata updates. Focused on correctness of routing table behaviors and peer management logic for decentralized networking.",
+    image: DHTTable,
+    tags: ["JavaScript", "Distributed Systems", "Networking", "DHT"],
+    category: "systems",
+    github: "https://github.com/Jeffano/DHT-Table-Management-System",
+    webapp: "",
+  },
+  {
+    id: 15,
     title: "Cheer Website",
     date: "January 2024 - April 2024",
     description:
-      "The website for Ongoing Living & Learning Inc. offers a fully accessible platform for adults with disabilities, their families, and caregivers. It provides essential information and resources, enhances communication, and promotes community engagement.",
+      "Developed an accessible full stack website for Ongoing Living and Learning Inc. to support adults with disabilities, families, and caregivers. Delivered responsive pages, clear information architecture, and community focused content to improve resource discoverability and communication.",
     image: CheerWebsiteImage,
-    tags: [
-      "React Js",
-      "MongoDB",
-      "Node Js",
-      "Express Js",
-      "JavaScript",
-    ],
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript"],
     category: "web-app",
     github: "https://github.com/Jeffano/CHEER-Fullstack-Website",
     webapp: "https://youtu.be/Aiu-fwW3Rbw",
   },
   {
-    id: 17,
+    id: 14,
     title: "Calculator App",
     date: "January 2024 - April 2024",
-    description: "This project features a webpage showcasing three distinct types of calculators: a basic 4-function calculator in INFIX mode, a 4-function calculator in Reverse Polish Notation (RPN) mode, and a calculator that adheres to the order of operations with parentheses support. The project is designed to evaluate the usability and efficiency of different user interface interaction models, catering to a wide range of users from novice to expert.",
+    description:
+      "Built a UI and usability focused calculator suite featuring an INFIX calculator, an RPN calculator, and an order of operations calculator with parentheses support. Evaluated interaction models and usability tradeoffs across novice and advanced user workflows.",
     image: CalculatorImage,
-    tags: [
-      "UIUXDesign",
-      "INFIX",
-      "RPN",
-      "Usability Testing",
-      "Human Computer Interaction",
-    ],
+    tags: ["UI/UX", "HCI", "INFIX", "RPN", "Usability Testing"],
     category: "web-app",
     github: "https://github.com/Jeffano/CalculatorApp",
     webapp: "",
   },
   {
-    id: 16,
+    id: 13,
     title: "Chatroom App",
     date: "January 2024 - April 2024",
     description:
-      "This chatroom application features a robust server-client architecture, with the server developed in C++ and the client in Python. The server employs a sophisticated threading mechanism, utilizing SocketThread for managing individual client connections and ServerThread for overarching server operations. Semaphores ensure synchronization and resource management. The client connects via sockets for real-time messaging and dynamic chatroom navigation. The application prioritizes seamless communication, efficient synchronization, and graceful termination processes to maintain system stability.",
+      "Built a real time chatroom application using a C++ multi threaded server and a Python client. Implemented socket based messaging, per client connection handling, and semaphore controlled synchronization to ensure stable concurrent communication and graceful shutdown behavior.",
     image: ChatroomImage,
-    tags: [
-      "C++",
-      "Python",
-      "SocketProgramming",
-      "Multithreading",
-      "Semaphore",
-      "ClientServerArchitecture",
-    ],
-    category: "python",
+    tags: ["C++", "Python", "Sockets", "Multithreading", "Semaphores"],
+    category: "systems",
     github: "https://github.com/Jeffano/ChatroomApp",
     webapp: "",
   },
   {
-    id: 15,
-    title: "Microcontroller LED Game",
-    date: "March 2024",
-    description: "This project implements a light sequence with LEDs controlled in a loop. The LEDs are turned on sequentially with a changing pattern based on elapsed time and user button presses. The sequence changes every 10 seconds, and the behavior can be adjusted with button presses. The delay between sequence changes decreases when a specific condition is met.",
-    image: MicrocontrollerGame,
-    tags: [
-      "LED Control",
-      "Button Interaction",
-      "Embedded Systems",
-      "C"
-    ],
-    category: "",
-    github: "https://github.com/Jeffano/Microcontroller-LED-Game",  // Add the GitHub repository URL if applicable
-    webapp: ""
-  },
-
-  {
-    id: 14,
-    title: "Singleton Controller for Networking",
-    date: "March 2024",
-    description: "This module manages sequence numbers and timestamps for a networked application. It initializes a random sequence number and timestamp, and provides methods to retrieve and increment these values. It also maintains a periodic timer to update the timestamp, ensuring it stays within a 32-bit range.",
-    image: SingletonController,  // Add an image URL if applicable
-    tags: [
-      "JavaScript",
-      "Networking",
-      "Singleton Pattern"
-    ],
-    category: "",
-    github: "https://github.com/Jeffano/Singleton-Controller-for-Networking",  // Add a GitHub URL if applicable
-    webapp: ""   // Add a web application URL if applicable
-  },
-  {
-    id: 13,
-    title: "DHT Table Management System",
-    date: "February 2024",
-    description: "This code contains functions for managing a Distributed Hash Table (DHT). The functions handle various aspects of the DHT including packet creation, prefix length calculation, bucket updates, and peer information management.",
-    image: DHTTable,  // Add an image URL if applicable
-    tags: [
-      "DHT",
-      "Distributed Systems",
-      "Networking",
-      "JavaScript"
-    ],
-    category: "",
-    github: "https://github.com/Jeffano/DHT-Table-Management-System",
-    webapp: ""
-  },
-  {
     id: 12,
-    title: "PigeonPlex - Moive DB",
+    title: "PigeonPlex - Movie DB",
     date: "September 2023 - December 2023",
     description:
-      "Developed a full-stack web application for a movie theater database, enabling users to purchase tickets for specific showtimes, request refunds, and access detailed information about movies currently showing or released. Implemented user authentication using Firebase, and crafted a responsive user interface with React JS to ensure a seamless experience across all devices. Practiced agile methodologies to enhance team efficiency and communication.",
+      "Developed a full stack movie theater platform enabling ticket purchases, refunds, and movie browsing across showtimes. Built responsive interfaces in React and implemented backend workflows with Django and MySQL, including Firebase authentication and agile team delivery practices.",
     image: PigeonPlexImage,
-    tags: ["React Js", "MySQL", "Django", "JavaScript", "Python", "Firebase"],
+    tags: ["React.js", "Django", "MySQL", "Python", "Firebase", "JavaScript"],
     category: "web-app",
     github: "https://github.com/Jeffano/Movie-Database-System",
     webapp: "",
@@ -743,82 +689,66 @@ export const projects = [
     id: 11,
     title: "Superhero Management System",
     date: "December 2023",
-    description: "Developed a full-stack web application to manage superhero characters from movies, cartoons, and books. Implemented a REST API using Node.js and Express for accessing and manipulating superhero data. MongoDB was used to store and manage superhero lists. The client-side interface was created using pure HTML, CSS, and JavaScript. The system supports asynchronous operations, input sanitization, and provides functionality for creating and managing favorite lists of superheroes.",
+    description:
+      "Built a full stack superhero catalog application with a Node.js and Express REST API and MongoDB storage. Delivered a lightweight frontend using HTML, CSS, and JavaScript with asynchronous operations, input sanitization, and workflows for creating and managing favorite hero lists.",
     image: Superhero,
-    tags: [
-      "Node.js",
-      "Express",
-      "REST API",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "MongoDB"
-    ],
+    tags: ["Node.js", "Express.js", "MongoDB", "REST API", "JavaScript", "HTML", "CSS"],
     category: "web-app",
     github: "https://github.com/Jeffano/Superhero-Management-System",
-    webapp: ""
+    webapp: "",
   },
   {
     id: 10,
     title: "Grocery and Retail Recommendation System",
     date: "December 2023",
-    description: "A recommendation system that suggests items based on user purchase history. It uses KNN to identify top categories for a user from grocery data and recommends items from retail data based on these categories.",
+    description:
+      "Built a recommendation system that suggests retail items based on grocery purchase history. Used KNN to identify top user preference categories and generated item recommendations from retail datasets, focusing on feature engineering and evaluation of recommendation quality.",
     image: RecommendationSystem,
-    tags: [
-      "Python",
-      "Machine Learning",
-      "Recommendation System",
-      "Data Processing"
-    ],
+    tags: ["Python", "Machine Learning", "Recommendation System", "KNN", "Data Processing"],
     category: "ml",
     github: "https://github.com/Jeffano/Grocery-and-Retail-Recommendation-System",
-    webapp: "https://youtu.be/Q1V0lZJBVak"
+    webapp: "https://youtu.be/Q1V0lZJBVak",
   },
   {
     id: 9,
+    title: "The Battle of The Marauders",
+    date: "January 2023 - April 2023",
+    description:
+      "Developed a 16 bit RPG game using Python and Pygame featuring 2D platforming, turn based combat, and character upgrades. Built core gameplay systems including movement, combat loops, progression, and level navigation with a focus on interactive user experience.",
+    image: BattleGame,
+    tags: ["Python", "Pygame", "Game Development"],
+    category: "game",
+    github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
+    webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
+  },
+  {
+    id: 8,
     title: "Sales Forecasting Model",
-    date: "September 2022 – April 2023",
-    description: "Developed a machine learning model to accurately forecast item sales across various branches of a large retailer. The project involved analyzing a comprehensive sales dataset and implementing advanced data preprocessing techniques to prepare the data for predictions. The model was built using Python, TensorFlow, Scikit-learn, XGBoost, and other key libraries such as NumPy and Pandas. The model achieved a 5% margin of error in sales predictions, and the training process was optimized to reduce model training time by 20%. Various metrics, including mean squared error, mean absolute error, and R² score, were used to evaluate the model's performance.",
+    date: "September 2022 - April 2023",
+    description:
+      "Developed a machine learning forecasting model to predict item sales across multiple retail branches. Applied preprocessing and feature engineering, trained models using TensorFlow and XGBoost, and achieved predictions within a 5% error margin. Optimized training workflows to reduce training time by 20% and evaluated performance using MAE, MSE, and R2 metrics.",
     image: SalesForecasting,
     tags: [
-      "Machine Learning",
-      "Sales Forecasting",
       "Python",
       "TensorFlow",
       "Scikit-learn",
       "XGBoost",
-      "Data Preprocessing",
-      "Model Optimization",
+      "Machine Learning",
+      "Forecasting",
+      "Feature Engineering",
     ],
     category: "ml",
     github: "https://github.com/Jeffano/Sales-Forecaster",
     webapp: "",
   },
   {
-    id: 8,
-    title: "The Battle of The Marauders",
-    date: "January 2023 - April 2023",
-    description: "This is a 16-bit RPG video game developed using Python and Pygame. In the game, players find themselves trapped inside a virtual world and must defeat enemies and navigate diverse terrains to escape. The gameplay features 2D platforming, turn-based combat, and character upgrades, allowing players to enhance their abilities as they progress through the game's challenges.",
-    image: BattleGame,
-    tags: [
-      "Python",
-      "PyGame"
-    ],
-    category: "",
-    github: "https://github.com/Jeffano/The-Battle-of-the-Marauders",
-    webapp: "https://youtu.be/togiNx3HCbc?si=hfTkzUUkh7MUKVqy",
-  },
-  {
     id: 7,
     title: "iFinance Database",
     date: "March 2023 - April 2023",
-    description: "The iFINANCE project is a comprehensive Personal Finance Management System that enables users to efficiently manage their finances. The system allows users to track various financial accounts, including bank accounts, cash, credit cards, and investments. Utilizing double-entry bookkeeping, iFINANCE categorizes transactions into Assets, Liabilities, Income, and Expenses, providing users with the ability to generate detailed financial reports such as Balance Sheets and Profit and Loss statements. The system includes secure user authentication, customizable account management, and a robust transaction management tool.",
+    description:
+      "Built a personal finance management system using Java and JavaFX with a Derby database backend. Implemented double entry bookkeeping across assets, liabilities, income, and expenses, supporting account management, secure authentication, and reporting features such as balance sheets and profit and loss statements.",
     image: iFinance,
-    tags: [
-      "Java",
-      "JavaFX",
-      "JavaDB",
-    ],
+    tags: ["Java", "JavaFX", "Derby", "Database Systems"],
     category: "java",
     github: "https://github.com/Jeffano/iFinance-Database",
     webapp: "",
@@ -827,15 +757,10 @@ export const projects = [
     id: 6,
     title: "Tennis Ball DB",
     date: "February 2023",
-    description: "Developed a database-driven application for managing summer T-ball teams, games, and scores. The application allows a recreation director to track team standings, game results, and update records as needed. It involves connecting to a Derby database, performing SQL operations to retrieve and modify data, and creating user interfaces for adding and managing team and match information.",
+    description:
+      "Developed a JavaFX database application to manage summer T ball teams, games, and scores. Connected to a Derby database, implemented SQL queries for standings and match updates, and built UI workflows for adding teams and recording results.",
     image: TennisDB,
-    tags: [
-      "Java",
-      "JavaFX",
-      "SQL",
-      "Database Management",
-      "GUI Development",
-    ],
+    tags: ["Java", "JavaFX", "SQL", "Derby", "GUI Development"],
     category: "java",
     github: "https://github.com/Jeffano/Tennis-Ball-Database",
     webapp: "",
@@ -844,13 +769,10 @@ export const projects = [
     id: 5,
     title: "Money Translate",
     date: "January 2023",
-    description: "Financial literacy doesn't have to be hard... introducing Money Translate. This website allows user's to input a PDF file of a financial document and it will then output a summary that details the most important concepts of the document in a manner that is easy to understand.",
+    description:
+      "Built a web app that summarizes complex financial documents into clear, beginner friendly explanations. Users upload a PDF and receive an AI generated summary highlighting key concepts and takeaways using a Python and React based workflow.",
     image: MoneyTranslate,
-    tags: [
-      "Python",
-      "React",
-      "JavaScript",
-    ],
+    tags: ["Python", "React", "JavaScript", "NLP"],
     category: "python",
     github: "https://github.com/Jeffano/MoneyTranslate",
     webapp: "",
@@ -859,17 +781,10 @@ export const projects = [
     id: 4,
     title: "Sorting Method Visualizer",
     date: "September 2022 - December 2022",
-    description: "The Sorting Method Visualizer is a Java application designed to visually demonstrate and compare different sorting algorithms. Users can select from various sorting methods, such as Bubble Sort, Merge Sort, Quick Sort, and others. The application displays the sorting process in real-time, illustrating how elements move and get arranged to help users understand the efficiency and behavior of each algorithm.",
+    description:
+      "Built a Java visualization tool to demonstrate and compare sorting algorithms including Bubble Sort, Merge Sort, and Quick Sort. Implemented real time animations to show element movement and algorithm behavior, helping users understand time complexity tradeoffs.",
     image: SortingMethod,
-    tags: [
-      "Java",
-      "Sorting Algorithms",
-      "Visualization",
-      "Bubble Sort",
-      "Merge Sort",
-      "Quick Sort",
-      "Algorithm Comparison",
-    ],
+    tags: ["Java", "Algorithms", "Sorting", "Visualization"],
     category: "java",
     github: "https://github.com/Jeffano/Sorting-Method-Visualizer",
     webapp: "",
@@ -878,12 +793,10 @@ export const projects = [
     id: 3,
     title: "The Watercooler",
     date: "October 2022",
-    description: "The Water Cooler Application is a full-stack web platform designed to connect employees in remote workforces based on their interests. Users sign up by answering a series of questions that help match them with colleagues who share similar interests. The goal is to foster connections and collaboration among remote workers by leveraging shared interests.",
+    description:
+      "Built a full stack platform that matches remote employees based on shared interests. Users complete onboarding questions and the system recommends connections, supporting collaboration and social interaction in distributed teams.",
     image: Watercooler,
-    tags: [
-      "Python",
-      "JavaScript",
-    ],
+    tags: ["Python", "JavaScript", "Web App"],
     category: "python",
     github: "https://github.com/Jeffano/TheWatercooler",
     webapp: "",
@@ -892,12 +805,10 @@ export const projects = [
     id: 2,
     title: "Python Snake Game",
     date: "July 2021",
-    description: "This is a classic Snake game developed using Python and Pygame. The game involves controlling a snake that moves around the screen, eating apples to grow longer while avoiding collisions with itself. The game features a graphical interface with a window displaying the snake, apples, and score. It includes sound effects and background music to enhance the gameplay experience.",
+    description:
+      "Built a classic Snake game using Python and Pygame with scoring, audio effects, and real time gameplay. Implemented collision handling, game state management, and responsive controls.",
     image: PythonSnake,
-    tags: [
-      "Python",
-      "Pygame",
-    ],
+    tags: ["Python", "Pygame", "Game Development"],
     category: "python",
     github: "https://github.com/Jeffano/Snake",
     webapp: "",
@@ -906,14 +817,10 @@ export const projects = [
     id: 1,
     title: "Java Connect 4 Game",
     date: "July 2020",
-    description: "This project is a graphical implementation of the classic Connect Four game using Java Swing. The game features a 7x7 grid where two players alternate turns to drop colored counters into columns, with the goal of aligning four counters horizontally, vertically, or diagonally. The application provides a user-friendly interface with dynamic button placement, game state management, and visual feedback for player actions.",
+    description:
+      "Implemented a graphical Connect Four game using Java Swing featuring a 7 by 7 grid, turn based gameplay, win detection, and interactive UI feedback. Built core game state logic and dynamic UI controls for a smooth user experience.",
     image: Connect4,
-    tags: [
-      "Java",
-      "Swing",
-      "GUI",
-      "Game Development",
-    ],
+    tags: ["Java", "Swing", "GUI", "Game Development"],
     category: "java",
     github: "https://github.com/Jeffano/Connect-4",
     webapp: "",
