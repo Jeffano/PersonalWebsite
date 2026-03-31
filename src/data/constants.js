@@ -65,39 +65,39 @@ export const skills = [
       {
         name: "Databricks",
         image:
-          "https://seeklogo.com/images/D/databricks-logo-0E4F8E4B28-seeklogo.com.png",
+          "https://www.vectorlogo.zone/logos/databricks/databricks-icon.svg",
       },
       {
         name: "Apache Spark",
         image:
-          "https://seeklogo.com/images/A/apache-spark-logo-F75661E09A-seeklogo.com.png",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
       },
       {
         name: "Delta Lake",
-        image: "https://delta.io/static/og-image.png",
+        image: "https://avatars.githubusercontent.com/u/28974706?s=200&v=4",
       },
       {
         name: "Google Cloud Platform",
         image:
-          "https://seeklogo.com/images/G/google-cloud-logo-A411C3E9E7-seeklogo.com.png",
+          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
       },
       {
         name: "Unity Catalog",
         image:
-          "https://www.databricks.com/wp-content/uploads/2022/08/unity-catalog.png",
+          "https://www.databricks.com/wp-content/uploads/2023/09/uc-logo.png",
       },
       {
         name: "ETL / ELT",
-        image: "https://cdn-icons-png.flaticon.com/512/2165/2165004.png",
+        image: "https://cdn-icons-png.flaticon.com/512/8297/8297296.png",
       },
       {
         name: "CDC",
-        image: "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+        image: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
       },
       {
         name: "SQL",
         image:
-          "https://seeklogo.com/images/S/sql-logo-3D0FBBDF0A-seeklogo.com.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
       },
     ],
   },
