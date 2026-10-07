@@ -45,16 +45,16 @@ import TurboFan from "../images/TurboFan.png";
 export const Bio = {
   name: "Jeffano John",
   roles: [
+    "AI Engineer",
     "Software Engineer",
     "Data Engineer",
     "Full Stack Engineer",
-    "ML/AI Engineer",
   ],
   description:
-  "I am a Software and Data Engineer focused on building reliable, scalable systems across cloud and distributed environments. My work spans data platform engineering, CI/CD automation, backend services, and AI-driven applications. I enjoy designing clean architectures, improving system reliability, and turning complex workflows into production-ready solutions that create measurable impact.",
-  github: "https://github.com/jeffano",
+    "I am a Software and AI Engineer who builds reliable, scalable systems where data, cloud, and AI come together. My work spans AI agents and intelligent applications, data platform engineering, backend and full stack development, and CI/CD automation. I enjoy taking complex, manual processes and turning them into clean, production ready solutions that make people's work faster and easier. I am always learning, and I care about building software that is thoughtfully designed, dependable, and genuinely useful.",
+  github: "https://github.com/Jeffano",
   resume:
-    "https://drive.google.com/file/d/11WIMuiYR9z6sSAzEZt67mAouulRnrNWQ/view?usp=sharing",
+    "",
   linkedin: "https://www.linkedin.com/in/jeffanojohn/",
 };
 
